@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.10.12)  18 DEC 2025 00:18
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.10.12)  18 DEC 2025 04:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -104,14 +104,7 @@ File: l3backend-dvips.def 2025-06-09 L3 backend support: dvips
 LaTeX Warning: Unused global option(s):
     [eclepsfｘ].
 
-(out/main_YOURNAME_paper20XX.aux
-
-LaTeX Warning: Label `lbl_cp4_fmcam_hyouka' multiply defined.
-
-
-LaTeX Warning: Label `lbl_cp5_jpg_huf_flw' multiply defined.
-
-)
+(out/main_YOURNAME_paper20XX.aux)
 \openout1 = `main_YOURNAME_paper20XX.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -132,18 +125,6 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (305.29955pt too wide) detected at line 44
-[]
- []
-
 
 
 [1
@@ -151,17 +132,25 @@ Overfull \hbox (305.29955pt too wide) detected at line 44
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 72.
 
 
 [1]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 163.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 165.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 163.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 165.
  (out/main_YOURNAME_paper20XX.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 [3
 
@@ -172,19 +161,18 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 
 
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 165.
+(Font)              No change on input line 167.
 LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 165.
+(Font)              No change on input line 167.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 16.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (out/main_YOURNAME_paper20XX.lof
-Overfull \hbox (19.4038pt too wide) in paragraph at lines 29--29
- [][] []\OT1/cmr/m/n/12 Adapted FM-CAM \JY1/mc/m/n/12 のポ ート数増加に対する \OT1/cmr/m/n/12 FPGA (Xil-inx XC4VLX160) 
- []
+[4] (out/main_YOURNAME_paper20XX.lof)
+\tf@lof=\write4
+\openout4 = `main_YOURNAME_paper20XX.lof'.
 
 
 
@@ -192,23 +180,7 @@ Overfull \hbox (19.4038pt too wide) in paragraph at lines 29--29
 
 ]
 
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 62.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 62.
-[6])
-\tf@lof=\write4
-\openout4 = `main_YOURNAME_paper20XX.lof'.
-
-
-
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 167.
-LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
-(Font)              No change on input line 167.
-[7]
-
-[8
+[6
 
 ] (out/main_YOURNAME_paper20XX.lot)
 \tf@lot=\write5
@@ -216,722 +188,124 @@ LaTeX Font Info:    Kanji font shape `JY1/mc/m/sl' undefined
 
 
 
-[9] (./chptr1.tex
+[7] (./chptr1.tex
 第 1 章
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 14.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
-File: ./pics/nomura.eps Graphic file (type eps)
-<./pics/nomura.eps>
-File: ./pics/nomura_mobile.eps Graphic file (type eps)
-<./pics/nomura_mobile.eps>
-
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+) (./chptr2.tex
 
 [1
 
 
 ]
 
-[2]
-File: ./pics/mlt_spc.eps Graphic file (type eps)
-<./pics/mlt_spc.eps>
+[2
+
+]
+第 2 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
+File: assets/matrix_led.png Graphic file (type bmp)
+<assets/matrix_led.png>
 
 
 [3]
+File: assets/256gradation.png Graphic file (type bmp)
+<assets/256gradation.png>
+File: assets/cat_lighting.jpg Graphic file (type bmp)
+<assets/cat_lighting.jpg>
+
 
 [4]
-File: ./pics/mlt_alg.eps Graphic file (type eps)
-<./pics/mlt_alg.eps>
+File: assets/origin_cat.jpg Graphic file (type bmp)
+<assets/origin_cat.jpg>
+File: assets/output_0.45.png Graphic file (type bmp)
+<assets/output_0.45.png>
 
 
-LaTeX Warning: Reference `lbl_cp1_gijyutu' on page 5 undefined on input line 146.
+[5]
+File: assets/gamma.png Graphic file (type bmp)
+<assets/gamma.png>
 
-
-LaTeX Warning: Reference `lbl_cp1_rsrchpst' on page 5 undefined on input line 146.
-
-
-
-[5]) (./chptr2.tex
 
 [6]
-第 2 章
-
-LaTeX Warning: Reference `lbl_cp3_impl' on page 7 undefined on input line 23.
-
-
-LaTeX Warning: Reference `lbl_cp3_jpeg_huffman' on page 7 undefined on input line 24.
+File: assets/output_0.45.png Graphic file (type bmp)
+<assets/output_0.45.png>
 
 
-LaTeX Warning: Reference `lbl_cp3_hrd_cst' on page 7 undefined on input line 27.
-
-
-LaTeX Warning: Reference `lbl_cp3_hrd_matome' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Reference `lbl_cp1_ashuku_tech' on page 7 undefined on input line 42.
-
-
-LaTeX Warning: Reference `lbl_cp1_ashuku' on page 7 undefined on input line 42.
-
-
-
-[7
-
-]
-File: ./pics/huffman_tree.eps Graphic file (type eps)
-<./pics/huffman_tree.eps>
-
+[7]
+File: assets/output_2.2.png Graphic file (type bmp)
+<assets/output_2.2.png>
+) (./chptr3.tex
 
 [8]
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 119.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 119.
+第 3 章
+File: assets/split_matrix.png Graphic file (type bmp)
+<assets/split_matrix.png>
 
 
-[9]
+[9
 
-[10]
-File: ./pics/chrc_block.eps Graphic file (type eps)
-<./pics/chrc_block.eps>
-File: ./pics/block_dgrm.eps Graphic file (type eps)
-<./pics/block_dgrm.eps>
+]
+File: assets/flicker_pattern.png Graphic file (type bmp)
+<assets/flicker_pattern.png>
 
+
+[10]) (./chptr4.tex
 
 [11]
 
 [12]
-File: ./pics/enc_pro.eps Graphic file (type eps)
-<./pics/enc_pro.eps>
-
-
-[13]
-File: ./pics/enc_flw.eps Graphic file (type eps)
-<./pics/enc_flw.eps>
-
-
-[14]
-
-[15]
-File: ./pics/asgn_mod.eps Graphic file (type eps)
-<./pics/asgn_mod.eps>
-
-
-[16]
-
-[17]
-File: ./pics/asgn_pro.eps Graphic file (type eps)
-<./pics/asgn_pro.eps>
-
-
-[18]
-File: ./pics/swap_mod.eps Graphic file (type eps)
-<./pics/swap_mod.eps>
-
-
-[19]) (./chptr3.tex
-
-[20]
-第 3 章
-
-LaTeX Warning: Reference `lbl_cp4_matome' on page 21 undefined on input line 26.
-
-
-LaTeX Warning: Reference `huf_arch' on page 21 undefined on input line 43.
-
-
-
-[21
-
-]
-
-[22]
-
-[23]
-File: ./pics/fmcam.eps Graphic file (type eps)
-<./pics/fmcam.eps>
-
-
-[24]
-
-[25]
-File: ./pics/fmcam_block.eps Graphic file (type eps)
-<./pics/fmcam_block.eps>
-
-
-[26]
-File: ./pics/byt_ram.eps Graphic file (type eps)
-<./pics/byt_ram.eps>
-
-
-[27]
-File: ./pics/mux.eps Graphic file (type eps)
-<./pics/mux.eps>
-
-
-[28]
-File: ./pics/prt_module.eps Graphic file (type eps)
-<./pics/prt_module.eps>
-
-
-[29]
-
-[30]
-File: ./pics/ring_cnt.eps Graphic file (type eps)
-<./pics/ring_cnt.eps>
-File: ./pics/kac02a.eps Graphic file (type eps)
-<./pics/kac02a.eps>
-File: ./pics/data.eps Graphic file (type eps)
-<./pics/data.eps>
-
-
-[31]
-
-[32]
-File: ./pics/noc.eps Graphic file (type eps)
-<./pics/noc.eps>
-
-
-[33]
-
-[34]
-File: ./pics/atp_comb.eps Graphic file (type eps)
-<./pics/atp_comb.eps>
-
-
-[35]
-
-[36]
-File: ./pics/para_gra.eps Graphic file (type eps)
-<./pics/para_gra.eps>
-
-
-[37]
-File: ./pics/re_fmcam.eps Graphic file (type eps)
-<./pics/re_fmcam.eps>
-File: ./pics/re_fmcam_block.eps Graphic file (type eps)
-<./pics/re_fmcam_block.eps>
-File: ./pics/memory_space.eps Graphic file (type eps)
-<./pics/memory_space.eps>
-
-Overfull \hbox (16.97736pt too wide) in paragraph at lines 698--698
-[]\JY1/gt/m/n/14.4 マルチプル／シングルサ ーチモ ード \OT1/cmr/bx/n/14.4 (Mul-ti-ple/Single Search
- []
-
-
-
-[38
-
-]
-
-[39]
-
-[40]
-Overfull \hbox (6.37762pt too wide) in paragraph at lines 749--749
-[]\JY1/gt/m/n/14.4 カテゴリ結合モ ード \OT1/cmr/bx/n/14.4 (Scal-a-bil-ity of Cat-e-go-riza-tion Struc-
- []
-
-File: ./pics/slct_md_wv.eps Graphic file (type eps)
-<./pics/slct_md_wv.eps>
-File: ./pics/addr_stg_wv.eps Graphic file (type eps)
-<./pics/addr_stg_wv.eps>
-
-
-[41]
-
-[42]
-
-[43]
-File: ./pics/port_module.eps Graphic file (type eps)
-<./pics/port_module.eps>
-
-
-[44
-
-]
-
-[45]
-
-[46]
-File: ./pics/fpga_impl.eps Graphic file (type eps)
-<./pics/fpga_impl.eps>
-File: ./pics/re_fmcam_asic.eps Graphic file (type eps)
-<./pics/re_fmcam_asic.eps>
-
-
-[47]
-
-[48]
-File: ./pics/impl_rslt_fpga.eps Graphic file (type eps)
-<./pics/impl_rslt_fpga.eps>
-File: ./pics/impl_rslt_asic.eps Graphic file (type eps)
-<./pics/impl_rslt_asic.eps>
-
-
-[49]
-
-[50]
-
-[51]
-
-LaTeX Warning: Reference `lbl_cp1_kousoku' on page 52 undefined on input line 1012.
-
-File: ./pics/cod_proc.eps Graphic file (type eps)
-<./pics/cod_proc.eps>
-
-
-[52
-
-]
-File: ./pics/test_pics.eps Graphic file (type eps)
-<./pics/test_pics.eps>
-
-
-[53]
-File: ./pics/clk_cycl.eps Graphic file (type eps)
-<./pics/clk_cycl.eps>
-File: ./pics/av_clk.eps Graphic file (type eps)
-<./pics/av_clk.eps>
-
-
-[54]
-
-[55]
-File: ./pics/mops.eps Graphic file (type eps)
-<./pics/mops.eps>
-
-
-[56]
-File: ./pics/mchrc_block.eps Graphic file (type eps)
-<./pics/mchrc_block.eps>
-File: ./pics/assign_mod.eps Graphic file (type eps)
-<./pics/assign_mod.eps>
-File: ./pics/mhpics.eps Graphic file (type eps)
-<./pics/mhpics.eps>
-
-
-[57]
-File: ./pics/cc_dat.eps Graphic file (type eps)
-<./pics/cc_dat.eps>
-
-
-[58]) (./chptr4.tex
-
-[59]
-
-[60
-
-]
 第 4 章
-
-Overfull \hbox (5.11314pt too wide) in paragraph at lines 4--4
-[]  
- []
-
-
-LaTeX Warning: Reference `lbl_cp5_intro' on page 61 undefined on input line 21.
-
-
-LaTeX Warning: Reference `lbl_cp5_mta' on page 61 undefined on input line 23.
-
-File: ./pics/mta_add.eps Graphic file (type eps)
-<./pics/mta_add.eps>
-File: ./pics/mta_sub1.eps Graphic file (type eps)
-<./pics/mta_sub1.eps>
-File: ./pics/mta_sub2.eps Graphic file (type eps)
-<./pics/mta_sub2.eps>
-File: ./pics/mta_mul1.eps Graphic file (type eps)
-<./pics/mta_mul1.eps>
-File: ./pics/mta_mul2.eps Graphic file (type eps)
-<./pics/mta_mul2.eps>
-File: ./pics/mta_div1.eps Graphic file (type eps)
-<./pics/mta_div1.eps>
-File: ./pics/mta_div2.eps Graphic file (type eps)
-<./pics/mta_div2.eps>
-File: ./pics/mta_div3.eps Graphic file (type eps)
-<./pics/mta_div3.eps>
-
-
-[61]
-
-[62]
-
-[63]
-
-[64]
-
-[65]
-
-[66]
-
-[67]
-
-[68]
-
-[69]
-File: ./pics/mta_impl.eps Graphic file (type eps)
-<./pics/mta_impl.eps>
-File: ./pics/mta_pics.eps Graphic file (type eps)
-<./pics/mta_pics.eps>
-
-
-LaTeX Warning: Reference `lbl_cp5_mta' on page 70 undefined on input line 174.
-
-
-
-[70
-
-]
-
-LaTeX Warning: Reference `op_mthd' on page 71 undefined on input line 186.
-
-
-LaTeX Warning: Reference `op_mthd' on page 71 undefined on input line 187.
-
-
-LaTeX Warning: Reference `op_mthd' on page 71 undefined on input line 188.
-
-
-LaTeX Warning: Reference `mta_intf' on page 71 undefined on input line 194.
-
-
-
-[71]
-
-LaTeX Warning: Reference `hv_sram' on page 72 undefined on input line 223.
-
-File: ./pics/hv_cam.eps Graphic file (type eps)
-<./pics/hv_cam.eps>
-
-
-[72]
-File: ./pics/mtb_an.eps Graphic file (type eps)
-<./pics/mtb_an.eps>
-File: ./pics/mtb_an_hyoka.eps Graphic file (type eps)
-<./pics/mtb_an_hyoka.eps>
-
-
-[73]
-
-[74]
-File: ./pics/mtb_blk.eps Graphic file (type eps)
-<./pics/mtb_blk.eps>
-
-
-LaTeX Warning: Reference `lbl_cp5_mta_simd_mod' on page 75 undefined on input line 324.
-
-
-
-[75
-
-]
-File: ./pics/mtb_cnt.eps Graphic file (type eps)
-<./pics/mtb_cnt.eps>
-
-
-[76]
-
-[77]
-File: ./pics/mtb_spc.eps Graphic file (type eps)
-<./pics/mtb_spc.eps>
-
-
-LaTeX Warning: Reference `lbl_cp5_mta_simd_mod' on page 78 undefined on input line 474.
-
-
-
-[78]
-File: ./pics/inst_fld.eps Graphic file (type eps)
-<./pics/inst_fld.eps>
-
-
-[79]
-
-[80]
-File: ./pics/wrt_flw.eps Graphic file (type eps)
-<./pics/wrt_flw.eps>
-
-
-[81]
-File: ./pics/mtb_huff.eps Graphic file (type eps)
-<./pics/mtb_huff.eps>
-
-
-[82]
-
-[83]
-File: ./pics/mtb_aes.eps Graphic file (type eps)
-<./pics/mtb_aes.eps>
-
-
-[84]
-File: ./pics/mtb_impl_sft.eps Graphic file (type eps)
-<./pics/mtb_impl_sft.eps>
-File: ./pics/mtb_impl_hrd.eps Graphic file (type eps)
-<./pics/mtb_impl_hrd.eps>
-File: ./pics/hv_cell.eps Graphic file (type eps)
-<./pics/hv_cell.eps>
-File: ./pics/hv_ary.eps Graphic file (type eps)
-<./pics/hv_ary.eps>
-
-
-[85]
-
-[86]
-
-[87]
-File: ./pics/jpg_srs.eps Graphic file (type eps)
-<./pics/jpg_srs.eps>
-File: ./pics/baseline.eps Graphic file (type eps)
-<./pics/baseline.eps>
-
-
-[88
-
-]
-File: ./pics/pic_fre.eps Graphic file (type eps)
-<./pics/pic_fre.eps>
-File: ./pics/dct_pat.eps Graphic file (type eps)
-<./pics/dct_pat.eps>
-
-
-[89]
-
-LaTeX Warning: Reference `lbl_cp5_mta_simd_mod' on page 90 undefined on input line 913.
-
-
-
-[90]
-File: ./pics/dct_flw.eps Graphic file (type eps)
-<./pics/dct_flw.eps>
-File: ./pics/str_img.eps Graphic file (type eps)
-<./pics/str_img.eps>
-
-
-LaTeX Warning: Reference `dsp_simd' on page 91 undefined on input line 950.
-
-
-LaTeX Warning: Reference `dsp_simd' on page 91 undefined on input line 959.
-
-
-
-[91]
-
-[92]
-File: ./pics/mtx_flw.eps Graphic file (type eps)
-<./pics/mtx_flw.eps>
-
-
-[93]
-File: ./pics/mtx_sflw.eps Graphic file (type eps)
-<./pics/mtx_sflw.eps>
-
-
-[94]
-
-[95]
-File: ./pics/dct_clk.eps Graphic file (type eps)
-<./pics/dct_clk.eps>
-File: ./pics/dct_mops.eps Graphic file (type eps)
-<./pics/dct_mops.eps>
-
-
-[96]
-
-[97]
-
-LaTeX Warning: Reference `lbl_cp3_realtime_huffman' on page 98 undefined on input line 1093.
-
-File: ./pics/huf_flw.eps Graphic file (type eps)
-<./pics/huf_flw.eps>
-
-
-[98
-
-]
-
-[99]
-File: ./pics/smp_pics0.eps Graphic file (type eps)
-<./pics/smp_pics0.eps>
-File: ./pics/smp_pics1.eps Graphic file (type eps)
-<./pics/smp_pics1.eps>
-File: ./pics/smp_pics2.eps Graphic file (type eps)
-<./pics/smp_pics2.eps>
-File: ./pics/smp_pics3.eps Graphic file (type eps)
-<./pics/smp_pics3.eps>
-File: ./pics/smp_pics4.eps Graphic file (type eps)
-<./pics/smp_pics4.eps>
-
-
-[100]
-
-[101]
-
-[102]
-
-[103]
-
-[104]
-File: ./pics/ck_proc.eps Graphic file (type eps)
-<./pics/ck_proc.eps>
-
-
-[105
-
-]
-
-[106]
-File: ./pics/jpg_tbl.eps Graphic file (type eps)
-<./pics/jpg_tbl.eps>
-File: ./pics/jpg_clk.eps Graphic file (type eps)
-<./pics/jpg_clk.eps>
-File: ./pics/jpg_ppa.eps Graphic file (type eps)
-<./pics/jpg_ppa.eps>
-
-
-[107]
-
-[108]) (./chptr5.tex
-
-[109
-
-]
-
-[110
-
-]
-第 5 章
-
-
-[111]
-Overfull \hbox (8.12405pt too wide) in paragraph at lines 52--58
-[][]$[]$[] 
- []
-
-
-
-[112]
-
-[113]
-Overfull \hbox (5.83159pt too wide) in paragraph at lines 163--171
-[][]$[]$[] 
- []
-
-
-
-[114]
-Overfull \hbox (7.86891pt too wide) in paragraph at lines 218--228
-[][]$[]$[] 
- []
-
-
-
-[115]
-Overfull \hbox (7.55678pt too wide) in paragraph at lines 229--240
-[][]$[]$[] 
- []
-
-
-
-[116]
-
-[117]
-File: ./pics/neo_mtx.eps Graphic file (type eps)
-<./pics/neo_mtx.eps>
 ) (out/main_YOURNAME_paper20XX.bbl
 
-[118]
-
-[119]
-
-[120
-
-]
-Overfull \hbox (31.48505pt too wide) in paragraph at lines 16--17
-[]\OT1/cmr/m/n/12 http://japan.renesas.com/fmwk.jsp?cnt=sh7785[]root.jsp&fp=/products/mpumcu/ 
- []
-
-
-
-[121]
-
-[122]
-
-[123]
-Underfull \hbox (badness 7777) in paragraph at lines 120--122
-[]\JY1/mc/m/n/12 池田　誠\OT1/cmr/m/n/12 , \JY1/mc/m/n/12 浅田邦博\OT1/cmr/m/n/12 , ``\JY1/mc/m/n/12 最近傍デ ータ探索機能を有する \OT1/cmr/m/n/12 CAM \JY1/mc/m/n/12 マク
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 120--122
-\JY1/mc/m/n/12 ロ\OT1/cmr/m/n/12 ,'' 1999 \JY1/mc/m/n/12 年第 \OT1/cmr/m/n/12 1 \JY1/mc/m/n/12 回 \OT1/cmr/m/n/12 LSI IP \JY1/mc/m/n/12 デザイン ・ アワ ード 開発奨励賞\OT1/cmr/m/n/12 , 1999.
- []
-
-
-
-[124])
-
-[125]
-
-[126
+[13
 
 ]
 
-[127]
+[14
 
-[128]
+]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+
+[15]
+
+[16
+
+]
+
+[17]
+
+[18
+
+]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 281.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 283.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 281.
-
-Overfull \hbox (3.56764pt too wide) in paragraph at lines 289--294
-\OT1/cmr/m/n/10.95 content-addressable mem-ory," Sys-tems and com-put-ers in Japan, Vol-ume 37, No. 11,
- []
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 283.
 
 
-Overfull \hbox (2.68561pt too wide) in paragraph at lines 294--300
-[][]$[]$[]\OT1/cmr/m/n/10.95 , Ya-suto Kuroda, Masakatsu Ishizaki, Tet-sushi Koide, Hans J^^?urgen
- []
-
-
-Overfull \hbox (8.95146pt too wide) in paragraph at lines 314--320
-[][]$[]$[]\OT1/cmr/m/n/10.95 , Ya-suto Kuroda, Tet-sushi Koide, Hans J^^?urgen Mat-tausch, Hideyuki
- []
-
-
-Overfull \hbox (8.95146pt too wide) in paragraph at lines 320--326
-[][]$[]$[]\OT1/cmr/m/n/10.95 , Ya-suto Kuroda, Tet-sushi Koide, Hans J^^?urgen Mat-tausch, Hideyuki
- []
-
-
-
-[129
-
-]
-
-[130] (out/main_YOURNAME_paper20XX.aux)
+[19] (out/main_YOURNAME_paper20XX.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 2751 strings out of 468392
- 46443 string characters out of 5442309
- 442538 words of memory out of 5000000
- 31333 multiletter control sequences out of 15000+600000
- 648775 words of font info for 123 fonts, out of 8000000 for 9000
+ 2017 strings out of 468392
+ 31428 string characters out of 5442309
+ 436538 words of memory out of 5000000
+ 30681 multiletter control sequences out of 15000+600000
+ 645025 words of font info for 108 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 57i,12n,65p,474b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,266b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main_YOURNAME_paper20XX.dvi (139 pages, 386068 bytes).
+Output written on out/main_YOURNAME_paper20XX.dvi (26 pages, 27124 bytes).

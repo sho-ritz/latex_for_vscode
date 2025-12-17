@@ -1,79 +1,49 @@
 \contentsline {chapter}{内容梗概}{i}{}%
-\contentsline {chapter}{\numberline {第1章}序章}{1}{}%
+\contentsline {chapter}{\numberline {第1章}序論}{1}{}%
 \contentsline {section}{\numberline {1.1}研究背景}{1}{}%
-\contentsline {section}{\numberline {1.2}本研究の目的}{5}{}%
-\contentsline {chapter}{\numberline {第2章}マトリクスLEDの表示制御}{7}{}%
-\contentsline {section}{\numberline {2.1}はじめに}{7}{}%
-\contentsline {section}{\numberline {2.2}256階調表示システム}{8}{}%
-\contentsline {subsection}{\numberline {2.2.1}静的ハフマン符号化方式 (Static Huffman Coding)}{9}{}%
-\contentsline {subsection}{\numberline {2.2.2}動的ハフマン符号化方式 (Adaptive Huffman Coding)}{10}{}%
-\contentsline {section}{\numberline {2.3}リアルタイム符号化テーブル最適化アーキテクチャ}{11}{}%
-\contentsline {subsection}{\numberline {2.3.1}最適化ハフマンテーブルによる符号化}{11}{}%
-\contentsline {subsection}{\numberline {2.3.2}リアルタイム符号化テーブル最適化の原理}{14}{}%
-\contentsline {subsection}{\numberline {2.3.3}アーキテクチャ}{16}{}%
-\contentsline {subsubsection}{アサインモジュール}{16}{}%
-\contentsline {subsubsection}{スワップモジュール}{19}{}%
-\contentsline {chapter}{\numberline {第3章}マルチポートCAMベース並列テーブルルックアップ符号化処理}{21}{}%
-\contentsline {section}{\numberline {3.1}はじめに}{21}{}%
-\contentsline {section}{\numberline {3.2}フレキシブルマルチポートCAM}{22}{}%
-\contentsline {subsection}{\numberline {3.2.1}CAMのマルチポート化}{22}{}%
-\contentsline {subsubsection}{マルチポート化への背景}{22}{}%
-\contentsline {subsubsection}{マルチポート化の課題}{23}{}%
-\contentsline {subsection}{\numberline {3.2.2}FMCAMの概要}{24}{}%
-\contentsline {subsubsection}{柔軟な検索機能}{24}{}%
-\contentsline {subsubsection}{適用アプリケーション例}{25}{}%
-\contentsline {subsection}{\numberline {3.2.3}アーキテクチャ}{26}{}%
-\contentsline {subsection}{\numberline {3.2.4}マルチポートの実現方法}{29}{}%
-\contentsline {subsubsection}{カテゴリ分け処理}{29}{}%
-\contentsline {subsubsection}{比較データの即時処理}{30}{}%
-\contentsline {subsection}{\numberline {3.2.5}FPGAへの実装結果}{31}{}%
-\contentsline {subsection}{\numberline {3.2.6}性能評価}{33}{}%
-\contentsline {section}{\numberline {3.3}テーブルルックアップ用マルチポートCAM}{38}{}%
-\contentsline {subsection}{\numberline {3.3.1}マルチプル／シングルサーチモード (Multiple/Single Search Mode)}{39}{}%
-\contentsline {subsection}{\numberline {3.3.2}カウンタ値設定モード (Counting Value Setting Mode)}{40}{}%
-\contentsline {subsection}{\numberline {3.3.3}カテゴリ結合モード (Scalability of Categorization Structure)}{41}{}%
-\contentsline {section}{\numberline {3.4}アーキテクチャ}{44}{}%
-\contentsline {subsection}{\numberline {3.4.1}ポートブロック (Port block)}{44}{}%
-\contentsline {subsection}{\numberline {3.4.2}カテゴリブロック (Category block)}{45}{}%
-\contentsline {subsection}{\numberline {3.4.3}コントローラ (Controller)}{46}{}%
-\contentsline {section}{\numberline {3.5}FPGA／ASICへの実装結果}{46}{}%
-\contentsline {section}{\numberline {3.6}ハフマン符号化への適用と評価}{52}{}%
-\contentsline {subsection}{\numberline {3.6.1}並列テーブルルックアップ処理の概念}{52}{}%
-\contentsline {subsection}{\numberline {3.6.2}評価・検証}{53}{}%
-\contentsline {section}{\numberline {3.7}リアルタイム符号化テーブル最適化アーキテクチャとの融合}{56}{}%
-\contentsline {subsection}{\numberline {3.7.1}処理の概要}{56}{}%
-\contentsline {subsection}{\numberline {3.7.2}ハフマン符号化適用時における性能評価}{57}{}%
-\contentsline {chapter}{\numberline {第4章}CAMベース超並列SIMD型\mbox {プロセッシングアーキテクチャ}}{61}{}%
-\contentsline {subsection}{\numberline {4.0.1}動作概要}{61}{}%
-\contentsline {subsection}{\numberline {4.0.2}VLSI設計結果}{70}{}%
-\contentsline {section}{\numberline {4.1}CAMと超並列SIMD型プロセッシングアーキテクチャの融合}{71}{}%
-\contentsline {subsection}{\numberline {4.1.1}融合処理の概要}{71}{}%
-\contentsline {subsection}{\numberline {4.1.2}アーキテクチャ}{75}{}%
-\contentsline {subsubsection}{直交SRAM}{75}{}%
-\contentsline {subsubsection}{CAM}{76}{}%
-\contentsline {subsubsection}{コントローラ}{76}{}%
-\contentsline {subsubsection}{バスインターフェース}{78}{}%
-\contentsline {subsection}{\numberline {4.1.3}命令セット}{79}{}%
-\contentsline {subsection}{\numberline {4.1.4}動作概要}{81}{}%
-\contentsline {subsubsection}{データ入出力}{81}{}%
-\contentsline {subsubsection}{テーブルルックアップ符号化}{81}{}%
-\contentsline {subsection}{\numberline {4.1.5}VLSI実装結果}{84}{}%
-\contentsline {section}{\numberline {4.2}画像処理アルゴリズムへの適用}{88}{}%
-\contentsline {subsection}{\numberline {4.2.1}JPEG方式の概要}{88}{}%
-\contentsline {subsection}{\numberline {4.2.2}DCT (Discrete Cosine Transform)}{89}{}%
-\contentsline {subsubsection}{垂直方向高速DCT処理}{92}{}%
-\contentsline {subsubsection}{水平方向高速DCT処理}{93}{}%
-\contentsline {subsubsection}{DCT処理の評価}{95}{}%
-\contentsline {subsection}{\numberline {4.2.3}ハフマン符号化}{98}{}%
-\contentsline {subsubsection}{テーブルルックアップインターフェースによるハフマン符号化}{98}{}%
-\contentsline {subsubsection}{信頼性評価}{98}{}%
-\contentsline {subsection}{\numberline {4.2.4}性能評価}{105}{}%
-\contentsline {section}{\numberline {4.3}まとめ}{109}{}%
-\contentsline {chapter}{\numberline {第5章}結論}{111}{}%
-\contentsline {section}{\numberline {5.1}研究成果}{111}{}%
-\contentsline {section}{\numberline {5.2}研究成果の応用と将来展望}{116}{}%
-\contentsline {subsection}{\numberline {5.2.1}研究成果の応用}{116}{}%
-\contentsline {subsection}{\numberline {5.2.2}将来展望}{118}{}%
-\contentsline {chapter}{参考文献}{118}{}%
-\contentsline {chapter}{謝辞}{127}{}%
-\contentsline {chapter}{発表論文リスト}{129}{}%
+\contentsline {section}{\numberline {1.2}本研究の目的}{1}{}%
+\contentsline {section}{\numberline {1.3}本論文の構成}{1}{}%
+\contentsline {chapter}{\numberline {第2章}マトリクスLED表示システムの構築}{3}{}%
+\contentsline {section}{\numberline {2.1}使用デバイスと開発環境}{3}{}%
+\contentsline {subsection}{\numberline {2.1.1}HUB75 64×32 LEDマトリクスの仕様}{3}{}%
+\contentsline {subsection}{\numberline {2.1.2}Raspberry Pi，Webサーバ構成}{4}{}%
+\contentsline {section}{\numberline {2.2}256階調表示システム}{4}{}%
+\contentsline {subsection}{\numberline {2.2.1}RGB各色の点灯回数制御による256階調表現}{4}{}%
+\contentsline {subsection}{\numberline {2.2.2}32×64画像へのリサイズとマッピング処理}{5}{}%
+\contentsline {subsection}{\numberline {2.2.3}Webサイトからの画像アップロード～パネル表示までの処理フロー}{6}{}%
+\contentsline {section}{\numberline {2.3}表示品質評価}{6}{}%
+\contentsline {subsection}{\numberline {2.3.1}はじめに}{7}{}%
+\contentsline {subsection}{\numberline {2.3.2}淡い色が表現しにくい要因の考察}{7}{}%
+\contentsline {subsection}{\numberline {2.3.3}ガンマ補正}{7}{}%
+\contentsline {section}{\numberline {2.4}小括}{8}{}%
+\contentsline {chapter}{\numberline {第3章}LEDマトリクスのフリッカ周波数差を用いたカメラベース可視光通信方式}{9}{}%
+\contentsline {section}{\numberline {3.1}提案方式の概要}{9}{}%
+\contentsline {section}{\numberline {3.2}送信側ハードウェア・ソフトウェア構成}{9}{}%
+\contentsline {subsection}{\numberline {3.2.1}HUB75走査の制御ロジック}{9}{}%
+\contentsline {subsection}{\numberline {3.2.2}Cコード実装とシンボル列の構成}{11}{}%
+\contentsline {section}{\numberline {3.3}バランス符号による色味差低減}{11}{}%
+\contentsline {subsection}{\numberline {3.3.1}naive方式で生じる色味差の問題}{11}{}%
+\contentsline {subsection}{\numberline {3.3.2}平均デューティ50\%のバランス符号設計}{11}{}%
+\contentsline {section}{\numberline {3.4}シンボル設計と同期語}{11}{}%
+\contentsline {subsection}{\numberline {3.4.1}preambleシンボル列による同期取得}{11}{}%
+\contentsline {subsection}{\numberline {3.4.2}同期語とシンボル境界推定}{11}{}%
+\contentsline {subsection}{\numberline {3.4.3}理論スループットの算出}{11}{}%
+\contentsline {section}{\numberline {3.5}受信アルゴリズム}{11}{}%
+\contentsline {subsection}{\numberline {3.5.1}フレーム列からの時系列データ生成}{12}{}%
+\contentsline {subsection}{\numberline {3.5.2}bitパターンとの類似度評価と位相推定}{12}{}%
+\contentsline {subsection}{\numberline {3.5.3}復号フロー全体}{12}{}%
+\contentsline {section}{\numberline {3.6}実装コードと最適化}{12}{}%
+\contentsline {section}{\numberline {3.7}小括}{12}{}%
+\contentsline {chapter}{\numberline {第4章}評価および考察}{13}{}%
+\contentsline {section}{\numberline {4.1}実験条件}{13}{}%
+\contentsline {section}{\numberline {4.2}人間の視覚における見え方の評価}{13}{}%
+\contentsline {subsection}{\numberline {4.2.1}旧方式と提案方式の色味の比較}{13}{}%
+\contentsline {subsection}{\numberline {4.2.2}白色との色差評価}{13}{}%
+\contentsline {section}{\numberline {4.3}通信性能評価}{13}{}%
+\contentsline {subsection}{\numberline {4.3.1}ビット誤り率と同期成功率の評価}{13}{}%
+\contentsline {subsection}{\numberline {4.3.2}送信可能な情報量と必要時間の試算}{13}{}%
+\contentsline {section}{\numberline {4.4}考察}{13}{}%
+\contentsline {section}{\numberline {4.5}結論および今後の課題}{13}{}%
+\contentsline {chapter}{参考文献}{13}{}%
+\contentsline {chapter}{謝辞}{17}{}%
+\contentsline {chapter}{発表論文リスト}{19}{}%

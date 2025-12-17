@@ -5,6 +5,9 @@
       "command": "latexmk",
       "args": [
         "-pdfdvi",
+        "-norc",
+        "-r",
+        ".latexmkrc",
         "-synctex=1",
         "-interaction=nonstopmode",
         "-file-line-error",
