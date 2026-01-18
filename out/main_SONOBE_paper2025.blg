@@ -1,12 +1,12 @@
 This is upBibTeX, Version 0.99d-j0.36-u2.00 (utf8.euc) (TeX Live 2025)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main_YOURNAME_paper20XX.aux
+The top-level auxiliary file: main_SONOBE_paper2025.aux
 The style file: tex_files/ieice_e.bst
-I found no \citation commands---while reading file main_YOURNAME_paper20XX.aux
+I found no \citation commands---while reading file main_SONOBE_paper2025.aux
 Database file #1: tex_files/e_fmcam_ref.bib
 You've used 0 entries,
             1906 wiz_defined-function locations,
-            485 strings with 3637 characters,
+            485 strings with 3633 characters,
 and the built_in function-call counts, 20 in all, are:
 = -- 0
 > -- 0

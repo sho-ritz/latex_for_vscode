@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
 $out_dir = 'out';
+$jobname = 'main_SONOBE_paper2025';
 
 # LaTeX（pLaTeX）- jreport2.clsはJY1エンコーディングを使用するためplatexが必要
 $latex = 'platex -synctex=1 -halt-on-error -file-line-error %O %S';

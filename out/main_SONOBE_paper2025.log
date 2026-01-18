@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.10.12)  19 JAN 2026 02:49
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.10.12)  19 JAN 2026 03:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -104,8 +104,8 @@ File: l3backend-dvips.def 2025-06-09 L3 backend support: dvips
 LaTeX Warning: Unused global option(s):
     [eclepsfｘ].
 
-(out/main_YOURNAME_paper20XX.aux)
-\openout1 = `main_YOURNAME_paper20XX.aux'.
+(out/main_SONOBE_paper2025.aux)
+\openout1 = `main_SONOBE_paper2025.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -142,7 +142,7 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 164.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 164.
- (out/main_YOURNAME_paper20XX.toc
+ (out/main_SONOBE_paper2025.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -156,7 +156,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ])
 \tf@toc=\write3
-\openout3 = `main_YOURNAME_paper20XX.toc'.
+\openout3 = `main_SONOBE_paper2025.toc'.
 
 
 
@@ -170,9 +170,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (out/main_YOURNAME_paper20XX.lof)
+[4] (out/main_SONOBE_paper2025.lof)
 \tf@lof=\write4
-\openout4 = `main_YOURNAME_paper20XX.lof'.
+\openout4 = `main_SONOBE_paper2025.lof'.
 
 
 
@@ -182,9 +182,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6
 
-] (out/main_YOURNAME_paper20XX.lot)
+] (out/main_SONOBE_paper2025.lot)
 \tf@lot=\write5
-\openout5 = `main_YOURNAME_paper20XX.lot'.
+\openout5 = `main_SONOBE_paper2025.lot'.
 
 
 
@@ -325,7 +325,7 @@ File: assets/data_structure.png Graphic file (type bmp)
 第 4 章
 
 
-[27]) (out/main_YOURNAME_paper20XX.bbl
+[27]) (out/main_SONOBE_paper2025.bbl
 
 [28]
 
@@ -352,7 +352,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 282.
 
 
-[33] (out/main_YOURNAME_paper20XX.aux)
+[33] (out/main_SONOBE_paper2025.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -360,12 +360,12 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2094 strings out of 468392
- 33335 string characters out of 5442309
+ 2095 strings out of 468392
+ 33298 string characters out of 5442309
  441538 words of memory out of 5000000
  30745 multiletter control sequences out of 15000+600000
  647418 words of font info for 119 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  57i,12n,65p,680b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main_YOURNAME_paper20XX.dvi (40 pages, 88756 bytes).
+Output written on out/main_SONOBE_paper2025.dvi (40 pages, 88756 bytes).
