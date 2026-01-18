@@ -3,3 +3,6 @@ https://www.lineeye.co.jp/html/term_doki.html
 
 LED通信（可視光通信）とは（大塚商会）
 https://www.otsuka-shokai.co.jp/products/led/knowledge/vlc.html
+
+HUB75
+https://ja.aliexpress.com/item/1005010223788711.html?spm=a2g0o.productlist.main.1.38ac5f5bakDgvR&algo_pvid=83b4938d-cf71-486c-9218-6f2fb411d1fa&algo_exp_id=83b4938d-cf71-486c-9218-6f2fb411d1fa-0&pdp_ext_f=%7B%22order%22%3A%221%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21JPY%211196%211196%21%21%2154.21%2154.21%21%40212a6e3217622496297883075ee545%2112000051586369847%21sea%21JP%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Aaaae88b2%3Bm03_new_user%3A-29895&curPageLogUid=CpTHI9Ut5NmN&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005010223788711%7C_p_origin_prod%3A
