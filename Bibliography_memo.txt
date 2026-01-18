@@ -1,0 +1,5 @@
+フレーム同期方式
+https://www.lineeye.co.jp/html/term_doki.html
+
+LED通信（可視光通信）とは（大塚商会）
+https://www.otsuka-shokai.co.jp/products/led/knowledge/vlc.html

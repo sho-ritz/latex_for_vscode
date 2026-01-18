@@ -122,6 +122,15 @@ INPUT chptr1.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ./chptr2.tex
 INPUT ./chptr2.tex
 INPUT ./chptr2.tex
@@ -135,15 +144,6 @@ INPUT ./assets/matrix_led.png
 INPUT ./assets/matrix_led.png
 INPUT extractbb -B cropbox -O assets/matrix_led.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ./assets/cloudflare_tunnel.png
 INPUT ./assets/cloudflare_tunnel.png
 INPUT ./assets/cloudflare_tunnel.png
@@ -197,6 +197,18 @@ INPUT ./assets/split_matrix.png
 INPUT ./assets/split_matrix.png
 INPUT ./assets/split_matrix.png
 INPUT extractbb -B cropbox -O assets/split_matrix.png
+INPUT ./assets/splite_matrix_4.jpg
+INPUT ./assets/splite_matrix_4.jpg
+INPUT ./assets/splite_matrix_4.jpg
+INPUT extractbb -B cropbox -O assets/splite_matrix_4.jpg
+INPUT ./assets/splited_8.jpg
+INPUT ./assets/splited_8.jpg
+INPUT ./assets/splited_8.jpg
+INPUT extractbb -B cropbox -O assets/splited_8.jpg
+INPUT ./assets/data_structure.png
+INPUT ./assets/data_structure.png
+INPUT ./assets/data_structure.png
+INPUT extractbb -B cropbox -O assets/data_structure.png
 INPUT ./chptr4.tex
 INPUT ./chptr4.tex
 INPUT ./chptr4.tex

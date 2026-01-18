@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex out/main_YOURNAME_paper20XX"] 1768299251.02987 "out/main_YOURNAME_paper20XX.aux" "out/main_YOURNAME_paper20XX.bbl" "out/main_YOURNAME_paper20XX" 1768363358.4627 0
+["bibtex out/main_YOURNAME_paper20XX"] 1768747710.44085 "out/main_YOURNAME_paper20XX.aux" "out/main_YOURNAME_paper20XX.bbl" "out/main_YOURNAME_paper20XX" 1768748130.64814 0
   "./tex_files/e_fmcam_ref.bib" 1516650686 71180 64d7257d35cb913caceafe2cb0757484 ""
   "./tex_files/ieice_e.bst" 867420662 19020 74ec4a4bb7256c294528843d3bb476ca ""
-  "out/main_YOURNAME_paper20XX.aux" 1768363356.4488 10262 94a41b7d5562053fbb08a9a45ce38f69 "latex"
+  "out/main_YOURNAME_paper20XX.aux" 1768748128.29189 9597 efc4646c7345ef6cb9a4755dd8a79a96 "latex"
   (generated)
   "out/main_YOURNAME_paper20XX.bbl"
   "out/main_YOURNAME_paper20XX.blg"
   (rewritten before read)
-["dvipdf"] 1768363356.82675 "out/main_YOURNAME_paper20XX.dvi" "out/main_YOURNAME_paper20XX.pdf" "out/main_YOURNAME_paper20XX" 1768363358.464 0
-  "out/main_YOURNAME_paper20XX.dvi" 1768363356.45204 71380 93689e501c8e8091ce531ff75f71413b "latex"
+["dvipdf"] 1768748128.78891 "out/main_YOURNAME_paper20XX.dvi" "out/main_YOURNAME_paper20XX.pdf" "out/main_YOURNAME_paper20XX" 1768748130.64946 0
+  "out/main_YOURNAME_paper20XX.dvi" 1768748128.29604 88788 3294fa4f84c6de6d81a4797e81c0bc9d "latex"
   (generated)
   "out/main_YOURNAME_paper20XX.pdf"
   (rewritten before read)
-["latex"] 1768363353.17423 "/Users/show/dev/latex_for_mac/main_YOURNAME_paper20XX.tex" "out/main_YOURNAME_paper20XX.dvi" "main_YOURNAME_paper20XX" 1768363358.46281 0
+["latex"] 1768748123.38299 "/Users/show/dev/latex_for_mac/main_YOURNAME_paper20XX.tex" "out/main_YOURNAME_paper20XX.dvi" "main_YOURNAME_paper20XX" 1768748130.64825 0
   "/Users/show/dev/latex_for_mac/main_YOURNAME_paper20XX.tex" 1767949428.31841 21989 58e28e7f0fb5544a5304962ed6a252bd ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -74,6 +74,7 @@
   "assets/cat_lighting.jpg" 1765998682.84204 381285 a707e6e59e3c590dad47b9c8e894afc9 ""
   "assets/cloudflare_system.png" 1768033593.48251 75137 9f94451065e7f246d4adef389f5e63bf ""
   "assets/cloudflare_tunnel.png" 1767977453.78073 154760 c2e64d45f34b0b00a132e5167eafba7f ""
+  "assets/data_structure.png" 1768644081.02821 12356 29a14aa0b0ca3512e6b4b0b5f0b3a53a ""
   "assets/display_2.2.jpg" 1768237537.18917 596466 181dda88adef9714dcbc082701d6ae02 ""
   "assets/flicker_pattern.png" 1765998962.04397 210666 4c40abf25a6ef43c84db97b46646419c ""
   "assets/gamma_explain.jpg" 1768231069.42249 50709 e5fd91974a25bf04ee1a20ca3e0f8cb3 ""
@@ -82,17 +83,19 @@
   "assets/output_0.45.png" 1765996906.61393 3118 bad088eddef142a2fe265ec5274da6ed ""
   "assets/output_2.2.png" 1765996912.97394 3799 7f6d1b91345576ec889bb9f121198127 ""
   "assets/split_matrix.png" 1766000444.88344 17559 afaf0a499d72088909d065f8b32cc12f ""
+  "assets/splite_matrix_4.jpg" 1768579723.42583 407995 6877ff8034a8c4e9cb2aad0e5e1dde36 ""
+  "assets/splited_8.jpg" 1768747599.42651 450651 544a82214647b2a340451c38c6b1f529 ""
   "assets/web_site.png" 1768230151.62589 223454 ec85cd9d90c6dc5ddae87f7ea0244df3 ""
-  "chptr1.tex" 1768206160.57716 10428 bc4131058a26fa591fb18d9cbf3c08e7 ""
-  "chptr2.tex" 1768237676.28263 20773 283c4a254ae01eb57f921fc75f42bc94 ""
-  "chptr3.tex" 1768363352.81974 10429 b81049c9772d66fd4f43c05ee25555dc ""
-  "chptr4.tex" 1766000723.47029 5456 4ea2bfdcefcb8d7fb09c71f40e85ea62 ""
+  "chptr1.tex" 1768743080.37005 10238 df546305918cb9c6e8a6f77ca8736b6f ""
+  "chptr2.tex" 1768564687.84181 21372 8c97677aaf5a43079fd49dfb3a822b0c ""
+  "chptr3.tex" 1768748123.19142 13135 d621fbeaeabcbd4d2f16046d9a83707a ""
+  "chptr4.tex" 1768740718.60719 6339 0475b142cd14eb1ee8ee50be8f3c8184 ""
   "main_YOURNAME_paper20XX.tex" 1767949428.31841 21989 58e28e7f0fb5544a5304962ed6a252bd ""
-  "out/main_YOURNAME_paper20XX.aux" 1768363356.4488 10262 94a41b7d5562053fbb08a9a45ce38f69 "latex"
-  "out/main_YOURNAME_paper20XX.bbl" 1768299251.23854 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main_YOURNAME_paper20XX"
-  "out/main_YOURNAME_paper20XX.lof" 1768363356.45193 1391 37972ff07bf837a80629b6ee298fc7a0 "latex"
-  "out/main_YOURNAME_paper20XX.lot" 1768363356.45199 180 4043642d975e7deda7cfdadff60fe6ad "latex"
-  "out/main_YOURNAME_paper20XX.toc" 1768363356.45184 4528 960ec5cae150626cd61cd74867a63708 "latex"
+  "out/main_YOURNAME_paper20XX.aux" 1768748128.29189 9597 efc4646c7345ef6cb9a4755dd8a79a96 "latex"
+  "out/main_YOURNAME_paper20XX.bbl" 1768747710.62347 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main_YOURNAME_paper20XX"
+  "out/main_YOURNAME_paper20XX.lof" 1768748128.29595 1744 885e941cc22c6c19aa0f1fd972effacf "latex"
+  "out/main_YOURNAME_paper20XX.lot" 1768748128.29599 180 4043642d975e7deda7cfdadff60fe6ad "latex"
+  "out/main_YOURNAME_paper20XX.toc" 1768748128.29585 3631 27d4c4143a05d97a525e0ff2c3ab0ef8 "latex"
   "tex_files/cite.sty" 925945200 14120 f75b40f7eb3f1850676203c44ae03628 ""
   "tex_files/fancyheadings.sty" 1135545558 21006 088e3513a90ac3aa21515dd46e858ae4 ""
   "tex_files/hangcaption.sty" 1515567980 5319 23b9c77a753296b4ee3d7a2e1372283e ""

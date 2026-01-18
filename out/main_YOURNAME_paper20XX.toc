@@ -15,39 +15,29 @@
 \contentsline {section}{\numberline {2.3}256階調表示システム}{10}{}%
 \contentsline {subsection}{\numberline {2.3.1}RGB各色の点灯回数制御による256階調表現}{10}{}%
 \contentsline {subsection}{\numberline {2.3.2}点灯させるタイミングの計算方法}{11}{}%
-\contentsline {subsection}{\numberline {2.3.3}32×64画像へのリサイズとマッピング処理}{12}{}%
+\contentsline {subsection}{\numberline {2.3.3}32×64画像へのリサイズとマッピング処理}{13}{}%
 \contentsline {section}{\numberline {2.4}ガンマ補正による画質改善}{14}{}%
-\contentsline {subsection}{\numberline {2.4.1}ガンマ補正}{14}{}%
-\contentsline {chapter}{\numberline {第3章}LEDマトリクスのフリッカ周波数差を用いたカメラベース可視光通信方式}{17}{}%
-\contentsline {section}{\numberline {3.1}提案方式の概要}{17}{}%
-\contentsline {section}{\numberline {3.2}可視光通信のロジック}{17}{}%
-\contentsline {subsection}{\numberline {3.2.1}点灯パターンの設計}{17}{}%
-\contentsline {subsection}{\numberline {3.2.2}バイナリ変換の方法}{18}{}%
-\contentsline {subsection}{\numberline {3.2.3}分割領域における点灯パターンの設計}{19}{}%
-\contentsline {subsection}{\numberline {3.2.4}Cコード実装とシンボル列の構成}{19}{}%
-\contentsline {section}{\numberline {3.3}バランス符号による色味差低減}{19}{}%
-\contentsline {subsection}{\numberline {3.3.1}naive方式で生じる色味差の問題}{19}{}%
-\contentsline {subsection}{\numberline {3.3.2}平均デューティ50\%のバランス符号設計}{19}{}%
-\contentsline {section}{\numberline {3.4}シンボル設計と同期語}{20}{}%
-\contentsline {subsection}{\numberline {3.4.1}preambleシンボル列による同期取得}{20}{}%
-\contentsline {subsection}{\numberline {3.4.2}同期語とシンボル境界推定}{20}{}%
-\contentsline {subsection}{\numberline {3.4.3}理論スループットの算出}{20}{}%
-\contentsline {section}{\numberline {3.5}受信アルゴリズム}{20}{}%
-\contentsline {subsection}{\numberline {3.5.1}フレーム列からの時系列データ生成}{20}{}%
-\contentsline {subsection}{\numberline {3.5.2}bitパターンとの類似度評価と位相推定}{20}{}%
-\contentsline {subsection}{\numberline {3.5.3}復号フロー全体}{20}{}%
-\contentsline {section}{\numberline {3.6}実装コードと最適化}{20}{}%
-\contentsline {section}{\numberline {3.7}小括}{20}{}%
-\contentsline {chapter}{\numberline {第4章}評価および考察}{21}{}%
-\contentsline {section}{\numberline {4.1}実験条件}{21}{}%
-\contentsline {section}{\numberline {4.2}人間の視覚における見え方の評価}{21}{}%
-\contentsline {subsection}{\numberline {4.2.1}旧方式と提案方式の色味の比較}{21}{}%
-\contentsline {subsection}{\numberline {4.2.2}白色との色差評価}{21}{}%
-\contentsline {section}{\numberline {4.3}通信性能評価}{21}{}%
-\contentsline {subsection}{\numberline {4.3.1}ビット誤り率と同期成功率の評価}{21}{}%
-\contentsline {subsection}{\numberline {4.3.2}送信可能な情報量と必要時間の試算}{21}{}%
-\contentsline {section}{\numberline {4.4}考察}{21}{}%
-\contentsline {section}{\numberline {4.5}結論および今後の課題}{21}{}%
-\contentsline {chapter}{参考文献}{21}{}%
-\contentsline {chapter}{謝辞}{25}{}%
-\contentsline {chapter}{発表論文リスト}{27}{}%
+\contentsline {subsection}{\numberline {2.4.1}ガンマ補正}{15}{}%
+\contentsline {chapter}{\numberline {第3章}2つの異なる点滅周波数を用いた可視光通信方式}{19}{}%
+\contentsline {section}{\numberline {3.1}提案方式の概要}{19}{}%
+\contentsline {section}{\numberline {3.2}可視光通信のロジック}{19}{}%
+\contentsline {subsection}{\numberline {3.2.1}点灯パターンの設計}{19}{}%
+\contentsline {subsection}{\numberline {3.2.2}バイナリ変換の方法}{20}{}%
+\contentsline {subsection}{\numberline {3.2.3}分割領域における点灯パターンの設計}{21}{}%
+\contentsline {subsection}{\numberline {3.2.4}4分割以上の検証}{22}{}%
+\contentsline {section}{\numberline {3.3}フレーム構成とシンボル境界推定}{23}{}%
+\contentsline {subsection}{\numberline {3.3.1}送信フレームの構成}{23}{}%
+\contentsline {subsection}{\numberline {3.3.2}FLAG検出とシンボル境界推定}{24}{}%
+\contentsline {section}{\numberline {3.4}受信アルゴリズム}{24}{}%
+\contentsline {subsection}{\numberline {3.4.1}フレーム列からの時系列データ生成}{24}{}%
+\contentsline {subsection}{\numberline {3.4.2}bitパターンとの類似度評価と位相推定}{25}{}%
+\contentsline {subsection}{\numberline {3.4.3}復号フロー全体}{25}{}%
+\contentsline {chapter}{\numberline {第4章}評価および考察}{27}{}%
+\contentsline {section}{\numberline {4.1}人間の視覚における見え方の評価}{27}{}%
+\contentsline {subsection}{\numberline {4.1.1}旧方式と提案方式の色味の比較}{27}{}%
+\contentsline {subsection}{\numberline {4.1.2}周波数ごとの色差評価}{27}{}%
+\contentsline {section}{\numberline {4.2}考察}{28}{}%
+\contentsline {section}{\numberline {4.3}結論および今後の課題}{28}{}%
+\contentsline {chapter}{参考文献}{28}{}%
+\contentsline {chapter}{謝辞}{31}{}%
+\contentsline {chapter}{発表論文リスト}{33}{}%
