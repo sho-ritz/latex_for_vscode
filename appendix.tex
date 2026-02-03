@@ -1,0 +1,242 @@
+%------------------------------------------------------------------
+% 付録：LEDマトリクス表示用プログラム
+%------------------------------------------------------------------
+\appendix
+\chapter{LEDマトリクス表示用プログラム}
+\label{lbl_appendix_code}
+
+本付録では，第\ref{lbl_chptr3}章で述べたLEDマトリクス表示システムの制御に用いた
+C言語プログラムのソースコードを示す．
+WiringPiによるGPIO制御，stb\_image系ライブラリによる画像読み込み・リサイズ，
+および累積値による256階調表示の実装を含む．
+
+\small
+\begin{verbatim}
+#define _GNU_SOURCE  // POSIX関数を有効にする
+#include <wiringPi.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdint.h>
+#include <stdbool.h>
+#include <string.h>
+#include <math.h>
+
+// stb_image のインクルード
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
+#define STB_IMAGE_WRITE_IMPLEMENTATION
+#include "stb_image_write.h"
+#define STB_IMAGE_RESIZE_IMPLEMENTATION
+#include "stb_image_resize2.h"
+
+#define NEW_BMP_WIDTH   64
+#define NEW_BMP_HEIGHT  32
+
+// スロット周波数（設計値）
+#define FREQ_LIGHTING   15360
+
+// HUB75 64x32 は通常 1/16 スキャン（行アドレス0..15）
+#define SCAN_ROWS       (NEW_BMP_HEIGHT / 2)
+
+// 通常方式（上段/下段を同時点灯）なので *2 は不要
+// 1スロット = 1アドレス行の点灯時間
+static inline unsigned int calc_slot_time_us(void) {
+    unsigned int t = 1000000u / (FREQ_LIGHTING * SCAN_ROWS);
+    if (t == 0) t = 1; // 念のため
+    return t;
+}
+
+typedef struct { uint8_t r, g, b; } RGB;
+
+// 画像ファイル読み込み（PNG/JPEG/BMP等、stbが自動判別）
+unsigned char* load_image(const char* filename, int* out_w, int* out_h) {
+    int w, h, ch;
+    unsigned char *img = stbi_load(filename, &w, &h, &ch, 3);
+    if (!img) {
+        fprintf(stderr, "画像読み込み失敗: %s\n", stbi_failure_reason());
+        return NULL;
+    }
+    *out_w = w;
+    *out_h = h;
+    return img;
+}
+
+// リサイズ（RGB構造体配列で返す）
+// ※ pow(x, 2.2) による単純ガンマデコード近似を使用
+RGB* resize_image(unsigned char* src_rgb, int src_w, int src_h) {
+    unsigned char *resized = (unsigned char*)malloc(NEW_BMP_WIDTH * NEW_BMP_HEIGHT * 3);
+    if (!resized) return NULL;
+
+    // sRGBを前提にしたリサイズ（ガンマ考慮）
+    if (!stbir_resize_uint8_srgb(
+            src_rgb, src_w, src_h, 0,
+            resized, NEW_BMP_WIDTH, NEW_BMP_HEIGHT, 0, 3)) {
+        fprintf(stderr, "リサイズに失敗\n");
+        free(resized);
+        return NULL;
+    }
+
+    RGB *out = (RGB*)malloc(NEW_BMP_WIDTH * NEW_BMP_HEIGHT * sizeof(RGB));
+    if (!out) { free(resized); return NULL; }
+
+    for (int i = 0; i < NEW_BMP_WIDTH * NEW_BMP_HEIGHT; i++) {
+        double sr = resized[i*3 + 0] / 255.0;
+        double sg = resized[i*3 + 1] / 255.0;
+        double sb = resized[i*3 + 2] / 255.0;
+
+        int r = (int)lround(pow(sr, 2.2) * 255.0);
+        int g = (int)lround(pow(sg, 2.2) * 255.0);
+        int b = (int)lround(pow(sb, 2.2) * 255.0);
+
+        if (r < 0) r = 0; if (r > 255) r = 255;
+        if (g < 0) g = 0; if (g > 255) g = 255;
+        if (b < 0) b = 0; if (b > 255) b = 255;
+
+        out[i].r = (uint8_t)r;
+        out[i].g = (uint8_t)g;
+        out[i].b = (uint8_t)b;
+    }
+
+    free(resized);
+    return out;
+}
+
+// 点灯判定（累積ディザ / 時間方向誤差拡散）
+// 256スロット中に v 回だけONになるよう、スロットkでONかを返す。
+// 判定は「床関数差分」： floor(v*(k+1)/256) != floor(v*k/256)
+static inline bool accum_dither_on_u8(uint8_t v, uint8_t k) {
+    uint16_t a = (uint16_t)v * (uint16_t)(k + 1);
+    uint16_t b = (uint16_t)v * (uint16_t)k;
+    return (a >> 8) != (b >> 8);
+}
+
+// 通常のHUB75制御（上段/下段 同時点灯）
+void control_led_matrix(RGB* pixels) {
+    // ピン定義（BCM GPIO番号）
+    const int pinA     = 22;
+    const int pinB     = 23;
+    const int pinC     = 24;
+    const int pinD     = 25;
+    const int pinR1    = 11;
+    const int pinR2    = 8;
+    const int pinG1    = 27;
+    const int pinG2    = 9;
+    const int pinB1    = 7;
+    const int pinB2    = 10;
+    const int pinClock = 17;
+    const int pinOE    = 18;
+    const int pinLAT   = 4;
+
+    int pins[] = {pinA, pinB, pinC, pinD,
+                  pinR1, pinR2, pinG1, pinG2, pinB1, pinB2,
+                  pinClock, pinOE, pinLAT};
+
+    for (int p = 0; p < (int)(sizeof(pins)/sizeof(pins[0])); p++) {
+        pinMode(pins[p], OUTPUT);
+        digitalWrite(pins[p], LOW);
+    }
+
+    // OEはHIGHで消灯（一般的な極性）
+    digitalWrite(pinOE, HIGH);
+
+    printf("LEDマトリクス制御開始...\n");
+
+    const unsigned int slotTimeUs = calc_slot_time_us();
+    printf("slotTime = %u us\n", slotTimeUs);
+
+    uint8_t k = 0; // 0..255
+
+    for (long long n = 0; n < 1000000000LL; n++) {
+
+        // ★この1回のnで「スロット k」を表示する：kはフレーム中固定（縞対策）
+        for (int address = 0; address < SCAN_ROWS; address++) {
+
+            // 出力無効化（アドレス変更・シフト中は消灯）
+            digitalWrite(pinOE, HIGH);
+
+            // 行アドレス設定（0..15）
+            digitalWrite(pinA, (address & 0x1) ? HIGH : LOW);
+            digitalWrite(pinB, (address & 0x2) ? HIGH : LOW);
+            digitalWrite(pinC, (address & 0x4) ? HIGH : LOW);
+            digitalWrite(pinD, (address & 0x8) ? HIGH : LOW);
+
+            const int topRow = address;               // 0..15
+            const int botRow = address + SCAN_ROWS;   // 16..31
+
+            // 1行分のシフト（64列）
+            for (int x = 0; x < NEW_BMP_WIDTH; x++) {
+
+                // 前列の残りを消す
+                digitalWrite(pinR1, LOW);
+                digitalWrite(pinG1, LOW);
+                digitalWrite(pinB1, LOW);
+                digitalWrite(pinR2, LOW);
+                digitalWrite(pinG2, LOW);
+                digitalWrite(pinB2, LOW);
+
+                RGB t = pixels[topRow * NEW_BMP_WIDTH + x];
+                RGB b = pixels[botRow * NEW_BMP_WIDTH + x];
+
+                // 上段（R1/G1/B1）
+                if (accum_dither_on_u8(t.r, k)) digitalWrite(pinR1, HIGH);
+                if (accum_dither_on_u8(t.g, k)) digitalWrite(pinG1, HIGH);
+                if (accum_dither_on_u8(t.b, k)) digitalWrite(pinB1, HIGH);
+
+                // 下段（R2/G2/B2）
+                if (accum_dither_on_u8(b.r, k)) digitalWrite(pinR2, HIGH);
+                if (accum_dither_on_u8(b.g, k)) digitalWrite(pinG2, HIGH);
+                if (accum_dither_on_u8(b.b, k)) digitalWrite(pinB2, HIGH);
+
+                // シフトクロック
+                digitalWrite(pinClock, HIGH);
+                digitalWrite(pinClock, LOW);
+            }
+
+            // ラッチ
+            digitalWrite(pinLAT, HIGH);
+            digitalWrite(pinLAT, LOW);
+
+            // 出力有効化（点灯）
+            digitalWrite(pinOE, LOW);
+
+            delayMicroseconds(slotTimeUs);
+
+            // 次の行へ行く前に確実に消灯
+            digitalWrite(pinOE, HIGH);
+        }
+
+        // ★フレーム（16行）完了後に k を進める
+        k++;
+    }
+
+    // 念のため消灯
+    digitalWrite(pinOE, HIGH);
+}
+
+int main(int argc, char *argv[]) {
+    if (argc != 2) {
+        fprintf(stderr, "使用方法: %s 入力画像\n", argv[0]);
+        return 1;
+    }
+
+    if (wiringPiSetupGpio() == -1) {
+        fprintf(stderr, "WiringPiの初期化に失敗\n");
+        return 1;
+    }
+
+    int w, h;
+    unsigned char *raw = load_image(argv[1], &w, &h);
+    if (!raw) return 1;
+
+    RGB *resized = resize_image(raw, w, h);
+    free(raw);
+    if (!resized) return 1;
+
+    control_led_matrix(resized);
+
+    free(resized);
+    return 0;
+}
+\end{verbatim}
+\normalsize

@@ -1,3 +1,67 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{otsuka_vlc}
+{株式会社大塚商会}, ``Led通信（可視光通信）とは.''
+\newblock https://www.otsuka-shokai.co.jp/products/led/knowledge/vlc.html（最終閲覧日: 2026-01-18）.
+
+\bibitem{ieee8021572018}
+{IEEE}, ``{IEEE} std 802.15.7-2018: {IEEE} standard for local and metropolitan area networks---part 15.7: Short-range optical wireless communications,'' tech. rep., IEEE, 2018.
+\newblock https://ieeexplore.ieee.org/document/8697198（最終閲覧日: 2026-01-24）.
+
+\bibitem{rajagopal2012}
+S.~Rajagopal, R.~D. Roberts, and S.-K. Lim, ``{IEEE} 802.15.7 visible light communication: Modulation schemes and dimming support,'' IEEE Communications Magazine, vol.~50, no.~3, pp.~72--82, Mar. 2012.
+\newblock https://ieeexplore.ieee.org/document/6163585（最終閲覧日: 2026-01-24）.
+
+\bibitem{jovicic2013}
+A.~Jovicic, J.~Li, and T.~Richardson, ``Visible light communication: Opportunities, challenges and the path to market,'' IEEE Communications Magazine, vol.~51, no.~12, pp.~26--32, Dec. 2013.
+\newblock https://ieeexplore.ieee.org/document/6685754（最終閲覧日: 2026-01-24）.
+
+\bibitem{ieee80215_tutorial}
+I.~802.15, ``Short-range optical wireless communications tutorial.'' {IEEE} 802.15 Working Group, Mentor資料.
+\newblock https://mentor.ieee.org/802.15/dcn/15/15-15-0112-02-007a-short-range-optical-wireless-communications-tutorial.pdf（最終閲覧日: 2026-01-24）. OCC（カメラ受信）を含む短距離光無線の整理.
+
+\bibitem{ieee802157r1}
+I.~802.15, ``{IEEE} 802.15 {TG} 15.7r1: Optical camera communications.'' {IEEE} 802.15 Task Group.
+\newblock https://www.ieee802.org/15/pub/TG7r1.html（最終閲覧日: 2026-01-24）.
+
+\bibitem{nguyen_rolling_mimo_2020}
+T.~Nguyen, A.~Islam, and T.~Yamazato, ``Optical camera communications for {IoT}---rolling-shutter based {MIMO} scheme with grouped {LED} array transmitter,'' Sensors, vol.~20, no.~12, 2020.
+\newblock https://www.mdpi.com/1424-8220/20/12/3361（最終閲覧日: 2026-01-24）.
+
+\bibitem{scsk_rolling_shutter}
+D.~K. Nguyen {\em et~al.}, ``Spaced color shift keying modulation for camera-based visible light communication system using rolling shutter effect,'' Optics Communications, 2019.
+\newblock https://www.sciencedirect.com/science/article/abs/pii/S0030401819304432（最終閲覧日: 2026-01-24）.
+
+\bibitem{roberts2011phy}
+R.~D. Roberts, S.~Rajagopal, and S.-K. Lim, ``{IEEE} 802.15.7 physical layer summary,'' IEEE GLOBECOM Workshops, pp.~772--776, 2011.
+\newblock https://ieeexplore.ieee.org/document/6162558（最終閲覧日: 2026-01-24）.
+
+\bibitem{aliexpress_hub75_led}
+``Ledマトリックスhub75 1/16s 1/32s smd2121 smd2020 屋内用p4 256x128mm 64x32 32x64 ledモジュール.''
+\newblock https://ja.aliexpress.com/item/1005010223788711.html（最終閲覧日: 2026-01-24）.
+
+\bibitem{switch_science_lmcm}
+{スイッチサイエンス}, ``Lmcm（{LED} matrix controller multinode）.''
+\newblock https://doc.switch-science.com/media/files/d2afe4e3-7003-4de2-97bc-78f818065a8f.pdf（最終閲覧日: 2026-01-24）.
+
+\bibitem{eizo_gamma}
+{EIZO}, ``液晶ディスプレイの「ガンマ」を知ろう.'' ITmedia流液晶ディスプレイ講座II 第7回, 2009.
+\newblock https://www.eizo.co.jp/eizolibrary/other/itmedia02\_07/（最終閲覧日: 2026-01-24）.
+
+\bibitem{neon}
+``Neon --- serverless postgres.''
+\newblock https://neon.com/（最終閲覧日: 2026-01-24）.
+
+\bibitem{cloudflare_tunnel}
+{Cloudflare}, ``Cloudflare tunnel.''
+\newblock https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/（最終閲覧日: 2026-01-24）.
+
+\bibitem{vercel}
+``Vercel --- build and deploy the best web experiences.''
+\newblock https://vercel.com/（最終閲覧日: 2026-01-24）.
+
+\bibitem{lineeye_hdlc}
+{LINEEYE}, ``通信の基本方式.'' 通信の用語集.
+\newblock https://www.lineeye.co.jp/html/term\_doki.html（最終閲覧日: 2026-01-24）.
 
 \end{thebibliography}

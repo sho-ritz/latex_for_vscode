@@ -2,42 +2,48 @@
 \contentsline {chapter}{\numberline {第1章}序論}{1}{}%
 \contentsline {section}{\numberline {1.1}研究背景}{1}{}%
 \contentsline {section}{\numberline {1.2}本研究の目的}{2}{}%
-\contentsline {section}{\numberline {1.3}本論文の構成}{3}{}%
-\contentsline {chapter}{\numberline {第2章}LEDマトリクスパネルを用いた画像表示システムの構築}{5}{}%
-\contentsline {section}{\numberline {2.1}使用デバイスと開発環境}{5}{}%
-\contentsline {subsection}{\numberline {2.1.1}HUB75 64×32 LEDマトリクスの仕様}{5}{}%
-\contentsline {subsection}{\numberline {2.1.2}Raspberry Pi 4と開発環境}{6}{}%
-\contentsline {section}{\numberline {2.2}画像アップロードシステムとネットワーク構成}{8}{}%
-\contentsline {subsection}{\numberline {2.2.1}Webアプリケーション構成（Django）}{8}{}%
-\contentsline {subsection}{\numberline {2.2.2}Cloudflare Tunnelによる外部アクセス}{8}{}%
-\contentsline {subsection}{\numberline {2.2.3}Webシステムの構成}{9}{}%
-\contentsline {subsection}{\numberline {2.2.4}Webサイトからの画像アップロード～パネル表示までの処理フロー}{9}{}%
-\contentsline {section}{\numberline {2.3}256階調表示システム}{10}{}%
-\contentsline {subsection}{\numberline {2.3.1}RGB各色の点灯回数制御による256階調表現}{10}{}%
-\contentsline {subsection}{\numberline {2.3.2}点灯させるタイミングの計算方法}{11}{}%
-\contentsline {subsection}{\numberline {2.3.3}32×64画像へのリサイズとマッピング処理}{13}{}%
-\contentsline {section}{\numberline {2.4}ガンマ補正による画質改善}{14}{}%
-\contentsline {subsection}{\numberline {2.4.1}ガンマ補正}{15}{}%
-\contentsline {chapter}{\numberline {第3章}2つの異なる点滅周波数を用いた可視光通信方式}{19}{}%
-\contentsline {section}{\numberline {3.1}提案方式の概要}{19}{}%
-\contentsline {section}{\numberline {3.2}可視光通信のロジック}{19}{}%
-\contentsline {subsection}{\numberline {3.2.1}点灯パターンの設計}{19}{}%
-\contentsline {subsection}{\numberline {3.2.2}バイナリ変換の方法}{20}{}%
-\contentsline {subsection}{\numberline {3.2.3}分割領域における点灯パターンの設計}{21}{}%
-\contentsline {subsection}{\numberline {3.2.4}4分割以上の検証}{22}{}%
-\contentsline {section}{\numberline {3.3}フレーム構成とシンボル境界推定}{23}{}%
-\contentsline {subsection}{\numberline {3.3.1}送信フレームの構成}{23}{}%
-\contentsline {subsection}{\numberline {3.3.2}FLAG検出とシンボル境界推定}{24}{}%
-\contentsline {section}{\numberline {3.4}受信アルゴリズム}{24}{}%
-\contentsline {subsection}{\numberline {3.4.1}フレーム列からの時系列データ生成}{24}{}%
-\contentsline {subsection}{\numberline {3.4.2}bitパターンとの類似度評価と位相推定}{25}{}%
-\contentsline {subsection}{\numberline {3.4.3}復号フロー全体}{25}{}%
-\contentsline {chapter}{\numberline {第4章}評価および考察}{27}{}%
-\contentsline {section}{\numberline {4.1}人間の視覚における見え方の評価}{27}{}%
-\contentsline {subsection}{\numberline {4.1.1}旧方式と提案方式の色味の比較}{27}{}%
-\contentsline {subsection}{\numberline {4.1.2}周波数ごとの色差評価}{27}{}%
-\contentsline {section}{\numberline {4.2}考察}{28}{}%
-\contentsline {section}{\numberline {4.3}結論および今後の課題}{28}{}%
-\contentsline {chapter}{参考文献}{28}{}%
-\contentsline {chapter}{謝辞}{31}{}%
-\contentsline {chapter}{発表論文リスト}{33}{}%
+\contentsline {section}{\numberline {1.3}本論文の構成}{2}{}%
+\contentsline {chapter}{\numberline {第2章}関連研究}{5}{}%
+\contentsline {section}{\numberline {2.1}可視光通信の概要と応用}{5}{}%
+\contentsline {section}{\numberline {2.2}カメラを用いた可視光通信}{5}{}%
+\contentsline {section}{\numberline {2.3}LED表示とちらつきの制御}{6}{}%
+\contentsline {section}{\numberline {2.4}本研究の位置づけ}{6}{}%
+\contentsline {chapter}{\numberline {第3章}LEDマトリクスパネルを用いた画像表示システムの構築}{9}{}%
+\contentsline {section}{\numberline {3.1}使用デバイスと開発環境}{9}{}%
+\contentsline {subsection}{\numberline {3.1.1}HUB75 64×32 LEDマトリクスの仕様}{9}{}%
+\contentsline {subsection}{\numberline {3.1.2}Raspberry Pi 4と開発環境}{12}{}%
+\contentsline {section}{\numberline {3.2}256階調表示システム}{15}{}%
+\contentsline {subsection}{\numberline {3.2.1}本研究で採用した方式による256階調表現}{15}{}%
+\contentsline {subsection}{\numberline {3.2.2}一般的な点灯制御方式との比較}{16}{}%
+\contentsline {subsection}{\numberline {3.2.3}点灯させるタイミングの計算方法}{17}{}%
+\contentsline {subsection}{\numberline {3.2.4}32×64画像へのリサイズとマッピング処理}{23}{}%
+\contentsline {section}{\numberline {3.3}ガンマ補正による画質改善}{25}{}%
+\contentsline {subsection}{\numberline {3.3.1}ガンマ補正}{25}{}%
+\contentsline {section}{\numberline {3.4}画像アップロードシステムとネットワーク構成}{29}{}%
+\contentsline {subsection}{\numberline {3.4.1}画像処理やLEDマトリクスパネル制御用の実行ファイル}{29}{}%
+\contentsline {subsection}{\numberline {3.4.2}Webアプリケーションの構成}{30}{}%
+\contentsline {subsection}{\numberline {3.4.3}Cloudflare Tunnelによる外部アクセス}{31}{}%
+\contentsline {subsection}{\numberline {3.4.4}Webサイトの構築}{32}{}%
+\contentsline {subsection}{\numberline {3.4.5}Webサイトからの画像アップロード～パネル表示までの処理フロー}{33}{}%
+\contentsline {chapter}{\numberline {第4章}2つの異なる点滅周波数を用いた可視光通信方式}{35}{}%
+\contentsline {section}{\numberline {4.1}提案方式の概要}{35}{}%
+\contentsline {section}{\numberline {4.2}可視光通信の仕組み}{35}{}%
+\contentsline {subsection}{\numberline {4.2.1}点灯パターンの設計}{35}{}%
+\contentsline {subsection}{\numberline {4.2.2}バイナリ変換の方法}{37}{}%
+\contentsline {subsection}{\numberline {4.2.3}撮影画像における縞模様}{38}{}%
+\contentsline {subsection}{\numberline {4.2.4}分割領域における点灯パターンの設計}{39}{}%
+\contentsline {subsection}{\numberline {4.2.5}4分割以上の検証}{41}{}%
+\contentsline {section}{\numberline {4.3}フレーム構成と復号の設計}{41}{}%
+\contentsline {subsection}{\numberline {4.3.1}送信フレームの構成}{41}{}%
+\contentsline {subsection}{\numberline {4.3.2}FLAG検出とシンボル境界推定}{42}{}%
+\contentsline {subsection}{\numberline {4.3.3}受信アルゴリズム}{42}{}%
+\contentsline {subsubsection}{フレーム列からの時系列データ生成}{43}{}%
+\contentsline {subsubsection}{bitパターンとの類似度評価と位相推定}{43}{}%
+\contentsline {subsection}{\numberline {4.3.4}復号フロー全体}{43}{}%
+\contentsline {chapter}{\numberline {第5章}考察および今後の課題}{45}{}%
+\contentsline {section}{\numberline {5.1}考察}{45}{}%
+\contentsline {section}{\numberline {5.2}結論および今後の課題}{46}{}%
+\contentsline {chapter}{参考文献}{46}{}%
+\contentsline {chapter}{\numberline {付 録A }LEDマトリクス表示用プログラム}{49}{}%
+\contentsline {chapter}{謝辞}{55}{}%
+\contentsline {chapter}{発表論文リスト}{57}{}%

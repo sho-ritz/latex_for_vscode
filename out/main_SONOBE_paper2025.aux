@@ -1,5 +1,6 @@
 \relax 
 \@writefile{toc}{\contentsline {chapter}{内容梗概}{i}{}\protected@file@percent }
+\citation{otsuka_vlc}
 \@writefile{toc}{\contentsline {chapter}{\numberline {第1章}序論}{1}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -8,90 +9,182 @@
 \newlabel{lbl_cp1_haikei}{{1.1}{2}{}{section.1.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}本研究の目的}{2}{}\protected@file@percent }
 \newlabel{lbl_cp1_mokuteki}{{1.2}{2}{}{section.1.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}本論文の構成}{3}{}\protected@file@percent }
-\newlabel{lbl_cp1_kousei}{{1.3}{3}{}{section.1.3}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第2章}LEDマトリクスパネルを用いた画像表示システムの構築}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}本論文の構成}{2}{}\protected@file@percent }
+\newlabel{lbl_cp1_kousei}{{1.3}{2}{}{section.1.3}{}}
+\citation{ieee8021572018}
+\citation{rajagopal2012}
+\citation{jovicic2013}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第2章}関連研究}{5}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{lbl_chptr3}{{2}{5}{}{chapter.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}使用デバイスと開発環境}{5}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}HUB75 64×32 LEDマトリクスの仕様}{5}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces HUB75 64×32 LEDマトリクスの外観例}}{6}{}\protected@file@percent }
-\newlabel{fig:matrix_led}{{2.1}{6}{}{figure.2.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Raspberry Pi 4と開発環境}{6}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Raspberry Pi 4 Model Bの主要仕様}}{7}{}\protected@file@percent }
-\newlabel{tab:raspberry_pi_spec}{{2.1}{7}{}{table.2.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}画像アップロードシステムとネットワーク構成}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Webアプリケーション構成（Django）}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Cloudflare Tunnelによる外部アクセス}{8}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Cloudflare Tunnelの概要図\footnotemark }}{8}{}\protected@file@percent }
-\newlabel{fig:cloudflare_tunnel}{{2.2}{8}{}{figure.2.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Webシステムの構成}{9}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Webサイトの画面}}{9}{}\protected@file@percent }
-\newlabel{fig:web_site}{{2.3}{9}{}{figure.2.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}Webサイトからの画像アップロード～パネル表示までの処理フロー}{9}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces システム全体の構成}}{10}{}\protected@file@percent }
-\newlabel{fig:cloudflare_system}{{2.4}{10}{}{figure.2.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}256階調表示システム}{10}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}RGB各色の点灯回数制御による256階調表現}{10}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces RGB各色の点灯回数制御による256階調表現}}{11}{}\protected@file@percent }
-\newlabel{fig:gradation}{{2.5}{11}{}{figure.2.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}点灯させるタイミングの計算方法}{11}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces RGB各色の点灯回数制御による256階調表現}}{12}{}\protected@file@percent }
-\newlabel{fig:cat_lighting}{{2.6}{12}{}{figure.2.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}32×64画像へのリサイズとマッピング処理}{13}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces 元画像}}{14}{}\protected@file@percent }
-\newlabel{fig:origin_cat}{{2.7}{14}{}{figure.2.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces リサイズ後画像}}{14}{}\protected@file@percent }
-\newlabel{fig:resized_cat}{{2.8}{14}{}{figure.2.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}ガンマ補正による画質改善}{14}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}ガンマ補正}{15}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces ガンマ補正の原理\footnotemark }}{15}{}\protected@file@percent }
-\newlabel{fig:gamma_explain}{{2.9}{15}{}{figure.2.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.10}{\ignorespaces ガンマ2.2補正画像}}{16}{}\protected@file@percent }
-\newlabel{fig:gamma_2.2}{{2.10}{16}{}{figure.2.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.11}{\ignorespaces ガンマ2.2補正画像（パネル表示）}}{16}{}\protected@file@percent }
-\newlabel{fig:panel_gamma_2.2}{{2.11}{16}{}{figure.2.11}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {第3章}2つの異なる点滅周波数を用いた可視光通信方式}{19}{}\protected@file@percent }
+\newlabel{lbl_chptr2}{{2}{5}{}{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}可視光通信の概要と応用}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}カメラを用いた可視光通信}{5}{}\protected@file@percent }
+\citation{ieee80215_tutorial}
+\citation{ieee802157r1}
+\citation{nguyen_rolling_mimo_2020}
+\citation{scsk_rolling_shutter}
+\citation{ieee8021572018}
+\citation{rajagopal2012}
+\citation{roberts2011phy}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}LED表示とちらつきの制御}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}本研究の位置づけ}{6}{}\protected@file@percent }
+\citation{aliexpress_hub75_led}
+\citation{switch_science_lmcm}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第3章}LEDマトリクスパネルを用いた画像表示システムの構築}{9}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{lbl_chptr5}{{3}{19}{}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}提案方式の概要}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}可視光通信のロジック}{19}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}点灯パターンの設計}{19}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces 提案方式におけるフリッカパターン}}{20}{}\protected@file@percent }
-\newlabel{fig:flicker_pattern}{{3.1}{20}{}{figure.3.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}バイナリ変換の方法}{20}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}分割領域における点灯パターンの設計}{21}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces 4分割LEDマトリクスの走査制御}}{21}{}\protected@file@percent }
-\newlabel{fig:split_matrix}{{3.2}{21}{}{figure.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces LEDマトリクスパネルを4つの領域に分割した画像}}{22}{}\protected@file@percent }
-\newlabel{fig:split_matrix_4}{{3.3}{22}{}{figure.3.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}4分割以上の検証}{22}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces LEDマトリクスパネルを8つの領域に分割した画像}}{23}{}\protected@file@percent }
-\newlabel{fig:splited_8}{{3.4}{23}{}{figure.3.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}フレーム構成とシンボル境界推定}{23}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}送信フレームの構成}{23}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces 送信データの全体設計}}{23}{}\protected@file@percent }
-\newlabel{fig:data_structure}{{3.5}{23}{}{figure.3.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}FLAG検出とシンボル境界推定}{24}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}受信アルゴリズム}{24}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}フレーム列からの時系列データ生成}{24}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}bitパターンとの類似度評価と位相推定}{25}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}復号フロー全体}{25}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}評価および考察}{27}{}\protected@file@percent }
+\newlabel{lbl_chptr3}{{3}{9}{}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}使用デバイスと開発環境}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}HUB75 64×32 LEDマトリクスの仕様}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces HUB75 64×32 LEDマトリクスパネルの製品仕様\footnotemark }}{10}{}\protected@file@percent }
+\newlabel{tab:hub75_spec}{{3.1}{10}{}{table.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces HUB75 64×32 LEDマトリクスパネルの外観\footnotemark }}{11}{}\protected@file@percent }
+\newlabel{fig:matrix_led}{{3.1}{11}{}{figure.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces HUB75 64×32 LEDマトリクスパネルの点灯例\footnotemark }}{12}{}\protected@file@percent }
+\newlabel{fig:matrix_light_example}{{3.2}{12}{}{figure.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Raspberry Pi 4と開発環境}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Raspberry Pi 4 Model Bの外観\footnotemark }}{13}{}\protected@file@percent }
+\newlabel{fig:raspberry_pi_外^^e8^^a7^^82}{{3.3}{13}{}{figure.3.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Raspberry Pi 4 Model Bの主要仕様\footnotemark }}{14}{}\protected@file@percent }
+\newlabel{tab:raspberry_pi_spec}{{3.2}{14}{}{table.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}256階調表示システム}{15}{}\protected@file@percent }
+\newlabel{sec:256system}{{3.2}{15}{}{section.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}本研究で採用した方式による256階調表現}{15}{}\protected@file@percent }
+\newlabel{sec:256gradation}{{3.2.1}{15}{}{subsection.3.2.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces 本研究で採用した方式による256階調表現}}{15}{}\protected@file@percent }
+\newlabel{fig:gradation}{{3.4}{15}{}{figure.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}一般的な点灯制御方式との比較}{16}{}\protected@file@percent }
+\newlabel{sec:lighting_comparison}{{3.2.2}{16}{}{subsection.3.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces PWM制御による点灯制御}}{16}{}\protected@file@percent }
+\newlabel{fig:pwm}{{3.5}{16}{}{figure.3.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}点灯させるタイミングの計算方法}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces スロットの均等に配置しないパターン}}{18}{}\protected@file@percent }
+\newlabel{fig:gradient_slot}{{3.6}{18}{}{figure.3.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces $R=200$のときの累積値の遷移}}{19}{}\protected@file@percent }
+\newlabel{fig:my_logic}{{3.7}{19}{}{figure.3.7}{}}
+\newlabel{eq:slot_range}{{3.3}{21}{}{equation.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces LEDマトリクスパネルに表示した元画像}}{21}{}\protected@file@percent }
+\newlabel{fig:sky}{{3.8}{21}{}{figure.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces 整数除算でスロット配置を決める方式の場合１}}{22}{}\protected@file@percent }
+\newlabel{fig:uneven_1}{{3.9}{22}{}{figure.3.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces 整数除算でスロット配置を決める方式２}}{22}{}\protected@file@percent }
+\newlabel{fig:uneven_2}{{3.10}{22}{}{figure.3.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces 累積値でスロットを配置した場合１}}{22}{}\protected@file@percent }
+\newlabel{fig:even_1}{{3.11}{22}{}{figure.3.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces 累積値でスロットを配置した場合２}}{23}{}\protected@file@percent }
+\newlabel{fig:even_2}{{3.12}{23}{}{figure.3.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}32×64画像へのリサイズとマッピング処理}{23}{}\protected@file@percent }
+\newlabel{sec:resize}{{3.2.4}{23}{}{subsection.3.2.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces 元画像}}{24}{}\protected@file@percent }
+\newlabel{fig:origin_cat}{{3.13}{24}{}{figure.3.13}{}}
+\citation{eizo_gamma}
+\citation{eizo_gamma}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces リサイズ後画像}}{25}{}\protected@file@percent }
+\newlabel{fig:resized_cat}{{3.14}{25}{}{figure.3.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}ガンマ補正による画質改善}{25}{}\protected@file@percent }
+\newlabel{sec:gamma}{{3.3}{25}{}{section.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}ガンマ補正}{25}{}\protected@file@percent }
+\newlabel{eq:gamma_basic}{{3.8}{25}{}{equation.3.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces ガンマ補正の原理\footnotemark }}{26}{}\protected@file@percent }
+\newlabel{fig:gamma_explain}{{3.15}{26}{}{figure.3.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.16}{\ignorespaces LEDマトリクスパネルでのガンマ特性}}{27}{}\protected@file@percent }
+\newlabel{fig:matrix_gamma}{{3.16}{27}{}{figure.3.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.17}{\ignorespaces ガンマ2.2補正画像}}{28}{}\protected@file@percent }
+\newlabel{fig:gamma_2.2}{{3.17}{28}{}{figure.3.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.18}{\ignorespaces ガンマ補正なしの画像（パネル表示）}}{28}{}\protected@file@percent }
+\newlabel{fig:non_gamma}{{3.18}{28}{}{figure.3.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.19}{\ignorespaces ガンマ2.2補正画像（パネル表示）}}{29}{}\protected@file@percent }
+\newlabel{fig:panel_gamma_2.2}{{3.19}{29}{}{figure.3.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}画像アップロードシステムとネットワーク構成}{29}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}画像処理やLEDマトリクスパネル制御用の実行ファイル}{29}{}\protected@file@percent }
+\newlabel{sec:execfile}{{3.4.1}{29}{}{subsection.3.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.20}{\ignorespaces Djangoから実行ファイルへの画像の流れと実行ファイル内での処理（リサイズ・点灯制御）}}{30}{}\protected@file@percent }
+\newlabel{fig:flow_exec_file}{{3.20}{30}{}{figure.3.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Webアプリケーションの構成}{30}{}\protected@file@percent }
+\citation{neon}
+\citation{cloudflare_tunnel}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.21}{\ignorespaces Django WebアプリケーションのWebインタフェース}}{31}{}\protected@file@percent }
+\newlabel{fig:web_interface}{{3.21}{31}{}{figure.3.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Cloudflare Tunnelによる外部アクセス}{31}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.22}{\ignorespaces Cloudflare Tunnelの概要図\footnotemark }}{31}{}\protected@file@percent }
+\newlabel{fig:cloudflare_tunnel}{{3.22}{31}{}{figure.3.22}{}}
+\citation{vercel}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Webサイトの構築}{32}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.23}{\ignorespaces Webサイトの画面}}{32}{}\protected@file@percent }
+\newlabel{fig:web_site_origin}{{3.23}{32}{}{figure.3.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.5}Webサイトからの画像アップロード～パネル表示までの処理フロー}{33}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.24}{\ignorespaces システム全体の構成}}{33}{}\protected@file@percent }
+\newlabel{fig:cloudflare_system}{{3.24}{33}{}{figure.3.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.25}{\ignorespaces アップロード前のWebサイトの画面}}{33}{}\protected@file@percent }
+\newlabel{fig:web_site_before}{{3.25}{33}{}{figure.3.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.26}{\ignorespaces アップロード後のWebサイトの画面}}{34}{}\protected@file@percent }
+\newlabel{fig:web_site_after}{{3.26}{34}{}{figure.3.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.27}{\ignorespaces LEDマトリクスパネルに表示された画像}}{34}{}\protected@file@percent }
+\newlabel{fig:display_image}{{3.27}{34}{}{figure.3.27}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {第4章}2つの異なる点滅周波数を用いた可視光通信方式}{35}{}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{lbl_chptr5_rslt}{{4}{27}{}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}人間の視覚における見え方の評価}{27}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}旧方式と提案方式の色味の比較}{27}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}周波数ごとの色差評価}{27}{}\protected@file@percent }
+\newlabel{lbl_chptr4}{{4}{35}{}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}提案方式の概要}{35}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}可視光通信の仕組み}{35}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}点灯パターンの設計}{35}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces 提案方式におけるスロットパターン}}{37}{}\protected@file@percent }
+\newlabel{fig:flicker_pattern}{{4.1}{37}{}{figure.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}バイナリ変換の方法}{37}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces 1001というビット列を表現する場合のスロットパターン}}{38}{}\protected@file@percent }
+\newlabel{fig:1001_pattern}{{4.2}{38}{}{figure.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}撮影画像における縞模様}{38}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces 縞模様が現れた画像}}{39}{}\protected@file@percent }
+\newlabel{fig:stripe_pattern}{{4.3}{39}{}{figure.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}分割領域における点灯パターンの設計}{39}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces 4分割LEDマトリクスの走査制御}}{40}{}\protected@file@percent }
+\newlabel{fig:split_matrix}{{4.4}{40}{}{figure.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces LEDマトリクスパネルを4つの領域に分割した画像}}{40}{}\protected@file@percent }
+\newlabel{fig:split_matrix_4}{{4.5}{40}{}{figure.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.5}4分割以上の検証}{41}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces LEDマトリクスパネルを8つの領域に分割した画像}}{41}{}\protected@file@percent }
+\newlabel{fig:splited_8}{{4.6}{41}{}{figure.4.6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}フレーム構成と復号の設計}{41}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}送信フレームの構成}{41}{}\protected@file@percent }
+\citation{lineeye_hdlc}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces 送信データの全体設計}}{42}{}\protected@file@percent }
+\newlabel{fig:data_structure}{{4.7}{42}{}{figure.4.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}FLAG検出とシンボル境界推定}{42}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}受信アルゴリズム}{42}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{フレーム列からの時系列データ生成}{43}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{bitパターンとの類似度評価と位相推定}{43}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}復号フロー全体}{43}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {第5章}考察および今後の課題}{45}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{lbl_chptr5_rslt}{{5}{45}{}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}考察}{45}{}\protected@file@percent }
+\newlabel{lbl_chptr5_ftr}{{5.1}{45}{}{section.5.1}{}}
 \bibstyle{tex_files/ieice_e}
 \bibdata{tex_files/e_fmcam_ref}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}考察}{28}{}\protected@file@percent }
-\newlabel{lbl_chptr5_ftr}{{4.2}{28}{}{section.4.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}結論および今後の課題}{28}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{参考文献}{28}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{謝辞}{31}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{発表論文リスト}{33}{}\protected@file@percent }
-\gdef \@abspage@last{40}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}結論および今後の課題}{46}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{参考文献}{46}{}\protected@file@percent }
+\bibcite{otsuka_vlc}{1}
+\bibcite{ieee8021572018}{2}
+\bibcite{rajagopal2012}{3}
+\bibcite{jovicic2013}{4}
+\bibcite{ieee80215_tutorial}{5}
+\bibcite{ieee802157r1}{6}
+\bibcite{nguyen_rolling_mimo_2020}{7}
+\bibcite{scsk_rolling_shutter}{8}
+\bibcite{roberts2011phy}{9}
+\bibcite{aliexpress_hub75_led}{10}
+\bibcite{switch_science_lmcm}{11}
+\bibcite{eizo_gamma}{12}
+\bibcite{neon}{13}
+\bibcite{cloudflare_tunnel}{14}
+\bibcite{vercel}{15}
+\bibcite{lineeye_hdlc}{16}
+\@writefile{toc}{\contentsline {chapter}{\numberline {付 録A }LEDマトリクス表示用プログラム}{49}{}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{lbl_appendix_code}{{A}{49}{}{chapter.1}{}}
+\@writefile{toc}{\contentsline {chapter}{謝辞}{55}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{発表論文リスト}{57}{}\protected@file@percent }
+\gdef \@abspage@last{66}

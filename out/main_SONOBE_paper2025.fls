@@ -1,10 +1,10 @@
-PWD /Users/show/dev/latex_for_mac
+PWD /Users/show/dev/latex/latex_for_mac
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/euptex/platex.fmt
-INPUT /Users/show/dev/latex_for_mac/main_YOURNAME_paper20XX.tex
+INPUT /Users/show/dev/latex/latex_for_mac/main_SONOBE_paper2025.tex
 OUTPUT out/main_SONOBE_paper2025.log
 INPUT ./tex_files/jreport2.cls
 INPUT ./tex_files/jreport2.cls
@@ -67,9 +67,24 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 OUTPUT out/main_SONOBE_paper2025.dvi
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
@@ -80,27 +95,16 @@ INPUT out/main_SONOBE_paper2025.toc
 INPUT out/main_SONOBE_paper2025.toc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min6.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT out/main_SONOBE_paper2025.toc
@@ -122,48 +126,78 @@ INPUT chptr1.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ./chptr2.tex
 INPUT ./chptr2.tex
 INPUT ./chptr2.tex
 INPUT ./chptr2.tex
 INPUT chptr2.tex
+INPUT ./chptr3.tex
+INPUT ./chptr3.tex
+INPUT ./chptr3.tex
+INPUT ./chptr3.tex
+INPUT chptr3.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./assets/matrix_led.png
 INPUT ./assets/matrix_led.png
 INPUT ./assets/matrix_led.png
 INPUT extractbb -B cropbox -O assets/matrix_led.png
+INPUT ./assets/matrix_light_example.png
+INPUT ./assets/matrix_light_example.png
+INPUT ./assets/matrix_light_example.png
+INPUT extractbb -B cropbox -O assets/matrix_light_example.png
+INPUT ./assets/raspberry_pi_4.jpg
+INPUT ./assets/raspberry_pi_4.jpg
+INPUT ./assets/raspberry_pi_4.jpg
+INPUT extractbb -B cropbox -O assets/raspberry_pi_4.jpg
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT ./assets/cloudflare_tunnel.png
-INPUT ./assets/cloudflare_tunnel.png
-INPUT ./assets/cloudflare_tunnel.png
-INPUT extractbb -B cropbox -O assets/cloudflare_tunnel.png
-INPUT ./assets/web_site.png
-INPUT ./assets/web_site.png
-INPUT ./assets/web_site.png
-INPUT extractbb -B cropbox -O assets/web_site.png
-INPUT ./assets/cloudflare_system.png
-INPUT ./assets/cloudflare_system.png
-INPUT ./assets/cloudflare_system.png
-INPUT extractbb -B cropbox -O assets/cloudflare_system.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ./assets/256gradation.png
 INPUT ./assets/256gradation.png
 INPUT ./assets/256gradation.png
 INPUT extractbb -B cropbox -O assets/256gradation.png
-INPUT ./assets/cat_lighting.jpg
-INPUT ./assets/cat_lighting.jpg
-INPUT ./assets/cat_lighting.jpg
-INPUT extractbb -B cropbox -O assets/cat_lighting.jpg
+INPUT ./assets/pwm.png
+INPUT ./assets/pwm.png
+INPUT ./assets/pwm.png
+INPUT extractbb -B cropbox -O assets/pwm.png
+INPUT ./assets/gradient_slot.png
+INPUT ./assets/gradient_slot.png
+INPUT ./assets/gradient_slot.png
+INPUT extractbb -B cropbox -O assets/gradient_slot.png
+INPUT ./assets/my_logic.png
+INPUT ./assets/my_logic.png
+INPUT ./assets/my_logic.png
+INPUT extractbb -B cropbox -O assets/my_logic.png
+INPUT ./assets/sky.jpg
+INPUT ./assets/sky.jpg
+INPUT ./assets/sky.jpg
+INPUT extractbb -B cropbox -O assets/sky.jpg
+INPUT ./assets/uneven_1.jpg
+INPUT ./assets/uneven_1.jpg
+INPUT ./assets/uneven_1.jpg
+INPUT extractbb -B cropbox -O assets/uneven_1.jpg
+INPUT ./assets/uneven_2.jpg
+INPUT ./assets/uneven_2.jpg
+INPUT ./assets/uneven_2.jpg
+INPUT extractbb -B cropbox -O assets/uneven_2.jpg
+INPUT ./assets/even_1.jpg
+INPUT ./assets/even_1.jpg
+INPUT ./assets/even_1.jpg
+INPUT extractbb -B cropbox -O assets/even_1.jpg
+INPUT ./assets/even_2.jpg
+INPUT ./assets/even_2.jpg
+INPUT ./assets/even_2.jpg
+INPUT extractbb -B cropbox -O assets/even_2.jpg
 INPUT ./assets/origin_cat.jpg
 INPUT ./assets/origin_cat.jpg
 INPUT ./assets/origin_cat.jpg
@@ -176,23 +210,69 @@ INPUT ./assets/gamma_explain.jpg
 INPUT ./assets/gamma_explain.jpg
 INPUT ./assets/gamma_explain.jpg
 INPUT extractbb -B cropbox -O assets/gamma_explain.jpg
+INPUT ./assets/matrix_gamma.png
+INPUT ./assets/matrix_gamma.png
+INPUT ./assets/matrix_gamma.png
+INPUT extractbb -B cropbox -O assets/matrix_gamma.png
 INPUT ./assets/output_2.2.png
 INPUT ./assets/output_2.2.png
 INPUT ./assets/output_2.2.png
 INPUT extractbb -B cropbox -O assets/output_2.2.png
+INPUT ./assets/non_gamma.jpg
+INPUT ./assets/non_gamma.jpg
+INPUT ./assets/non_gamma.jpg
+INPUT extractbb -B cropbox -O assets/non_gamma.jpg
 INPUT ./assets/display_2.2.jpg
 INPUT ./assets/display_2.2.jpg
 INPUT ./assets/display_2.2.jpg
 INPUT extractbb -B cropbox -O assets/display_2.2.jpg
-INPUT ./chptr3.tex
-INPUT ./chptr3.tex
-INPUT ./chptr3.tex
-INPUT ./chptr3.tex
-INPUT chptr3.tex
+INPUT ./assets/flow_exec_file.png
+INPUT ./assets/flow_exec_file.png
+INPUT ./assets/flow_exec_file.png
+INPUT extractbb -B cropbox -O assets/flow_exec_file.png
+INPUT ./assets/web_interface.png
+INPUT ./assets/web_interface.png
+INPUT ./assets/web_interface.png
+INPUT extractbb -B cropbox -O assets/web_interface.png
+INPUT ./assets/cloudflare_tunnel.png
+INPUT ./assets/cloudflare_tunnel.png
+INPUT ./assets/cloudflare_tunnel.png
+INPUT extractbb -B cropbox -O assets/cloudflare_tunnel.png
+INPUT ./assets/web_site_origin.png
+INPUT ./assets/web_site_origin.png
+INPUT ./assets/web_site_origin.png
+INPUT extractbb -B cropbox -O assets/web_site_origin.png
+INPUT ./assets/cloudflare_system.png
+INPUT ./assets/cloudflare_system.png
+INPUT ./assets/cloudflare_system.png
+INPUT extractbb -B cropbox -O assets/cloudflare_system.png
+INPUT ./assets/web_site_origin.png
+INPUT ./assets/web_site_origin.png
+INPUT ./assets/web_site_origin.png
+INPUT ./assets/web_site.png
+INPUT ./assets/web_site.png
+INPUT ./assets/web_site.png
+INPUT extractbb -B cropbox -O assets/web_site.png
+INPUT ./assets/display_2.2.jpg
+INPUT ./assets/display_2.2.jpg
+INPUT ./assets/display_2.2.jpg
+INPUT ./chptr4.tex
+INPUT ./chptr4.tex
+INPUT ./chptr4.tex
+INPUT ./chptr4.tex
+INPUT chptr4.tex
 INPUT ./assets/flicker_pattern.png
 INPUT ./assets/flicker_pattern.png
 INPUT ./assets/flicker_pattern.png
 INPUT extractbb -B cropbox -O assets/flicker_pattern.png
+INPUT ./assets/1001_bit.png
+INPUT ./assets/1001_bit.png
+INPUT ./assets/1001_bit.png
+INPUT extractbb -B cropbox -O assets/1001_bit.png
+INPUT ./assets/flicker_noise.jpg
+INPUT ./assets/flicker_noise.jpg
+INPUT ./assets/flicker_noise.jpg
+INPUT extractbb -B cropbox -O assets/flicker_noise.jpg
 INPUT ./assets/split_matrix.png
 INPUT ./assets/split_matrix.png
 INPUT ./assets/split_matrix.png
@@ -209,17 +289,24 @@ INPUT ./assets/data_structure.png
 INPUT ./assets/data_structure.png
 INPUT ./assets/data_structure.png
 INPUT extractbb -B cropbox -O assets/data_structure.png
-INPUT ./chptr4.tex
-INPUT ./chptr4.tex
-INPUT ./chptr4.tex
-INPUT ./chptr4.tex
-INPUT chptr4.tex
+INPUT ./chptr5.tex
+INPUT ./chptr5.tex
+INPUT ./chptr5.tex
+INPUT ./chptr5.tex
+INPUT chptr5.tex
 INPUT out/main_SONOBE_paper2025.bbl
 INPUT out/main_SONOBE_paper2025.bbl
 INPUT out/main_SONOBE_paper2025.bbl
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./appendix.tex
+INPUT ./appendix.tex
+INPUT ./appendix.tex
+INPUT ./appendix.tex
+INPUT appendix.tex
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
