@@ -1,4 +1,12 @@
 {
+  // ========== LaTeX Workshop（ビルド・プレビュー） ==========
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.autoBuild.interval": 3000,
+  "latex-workshop.latex.outDir": "out",
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux", "*.bbl", "*.blg", "*.idx", "*.ind", "*.lof", "*.lot",
+    "*.out", "*.toc", "*.fls", "*.fdb_latexmk", "*.synctex.gz"
+  ],
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk (pLaTeX -> dvipdfmx)",
@@ -6,13 +14,13 @@
       "args": [
         "-pdfdvi",
         "-norc",
-        "-r",
-        ".latexmkrc",
+        "-r", ".latexmkrc",
         "-synctex=1",
         "-interaction=nonstopmode",
         "-file-line-error",
         "%DOC%"
-      ]
+      ],
+      "env": {}
     },
     {
       "name": "platex",
@@ -28,47 +36,65 @@
     {
       "name": "dvipdfmx",
       "command": "dvipdfmx",
-      "args": [
-        "-o",
-        "%OUTDIR%/%DOCFILE%.pdf",
-        "%OUTDIR%/%DOCFILE%.dvi"
-      ]
+      "args": ["-o", "%OUTDIR%/%DOCFILE%.pdf", "%OUTDIR%/%DOCFILE%.dvi"]
     },
     {
       "name": "pbibtex",
       "command": "pbibtex",
-      "args": [
-        "%OUTDIR%/%DOCFILE%"
-      ]
+      "args": ["%OUTDIR%/%DOCFILE%"]
     }
   ],
   "latex-workshop.latex.recipes": [
     {
       "name": "latexmk (pLaTeX -> dvipdfmx)",
-      "tools": [
-        "latexmk (pLaTeX -> dvipdfmx)"
-      ]
+      "tools": ["latexmk (pLaTeX -> dvipdfmx)"]
     },
     {
       "name": "platex -> dvipdfmx",
-      "tools": [
-        "platex",
-        "dvipdfmx"
-      ]
+      "tools": ["platex", "dvipdfmx"]
     },
     {
-      "name": "platex -> pbibtex -> platex*2 -> dvipdfmx",
-      "tools": [
-        "platex",
-        "pbibtex",
-        "platex",
-        "platex",
-        "dvipdfmx"
-      ]
+      "name": "platex -> pbibtex -> platex×2 -> dvipdfmx",
+      "tools": ["platex", "pbibtex", "platex", "platex", "dvipdfmx"]
     }
   ],
-  "latex-workshop.latex.outDir": "out",
-  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.recipe.default": "latexmk (pLaTeX -> dvipdfmx)",
+
+  // PDF プレビュー（タブで開く・SyncTeX）
   "latex-workshop.view.pdf.viewer": "tab",
-  "latex-workshop.synctex.afterBuild.enabled": true
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.synctex.refreshInterval": 100,
+  // PDF 上の文字でソースへジャンプ: "double-click"=ダブルクリック, "ctrl+click"=Ctrl/Cmd+クリック
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+
+  // エラー表示（badbox: none=非表示, overfull/underfull/both で種類指定）
+  "latex-workshop.message.badbox.show": "none",
+  "latex-workshop.message.warning.show": true,
+
+  // ========== .tex 用エディタ設定 ==========
+  "[latex]": {
+    "editor.wordWrap": "on",
+    "editor.rulers": [80],
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.suggest.showWords": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.glyphMargin": true
+  },
+
+  // フォールバック（.tex が latex として認識されない場合）
+  "files.associations": {
+    "*.tex": "latex"
+  },
+
+  // ========== 全体で見やすく ==========
+  "editor.renderWhitespace": "selection",
+  "editor.guides.bracketPairs": true,
+  "editor.folding": true,
+  "editor.minimap.enabled": true,
+  "editor.suggestSelection": "first"
 }
