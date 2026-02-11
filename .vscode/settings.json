@@ -96,5 +96,22 @@
   "editor.guides.bracketPairs": true,
   "editor.folding": true,
   "editor.minimap.enabled": true,
-  "editor.suggestSelection": "first"
+  "editor.suggestSelection": "first",
+
+  // ========== 保存時の句読点変換（Better Replace On Save） ==========
+  "editor.codeActionsOnSave": {
+    "source.applyReplacements": true
+  },
+  "betterReplaceOnSave.replacements": [
+    {
+      "search": "(?<!\\\\)、",
+      "replace": "，",
+      "languages": ["latex"]
+    },
+    {
+      "search": "(?<!\\\\)。",
+      "replace": "．",
+      "languages": ["latex"]
+    }
+  ]
 }
