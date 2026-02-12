@@ -4,18 +4,18 @@
 
 ## オンボーディング（3分）
 ### macOS
-1. MacTeX をインストール
+1. MacTeX をインストールします
 
 ```sh
 brew install --cask mactex
 ```
 
-2. このフォルダを VSCode で開く
-3. 推奨拡張機能のインストール通知が出たらインストール
+2. このフォルダを VSCode で開きます
+3. 推奨拡張機能のインストール通知が出たらインストールします
 4. `.tex` を開いて保存すると自動で PDF が生成されます
 
 ### Windows
-1. TeX Live をダウンロード（MacTeX の Windows 版に相当）
+1. TeX Live をダウンロードします（MacTeX の Windows 版に相当）
 
 ```text
 https://www.tug.org/texlive/
@@ -32,8 +32,8 @@ C:\Users\<ユーザ名>\AppData\Local\Programs\MiKTeX
 C:\texlive\2024\bin\windows
 ```
 
-7. インストーラで「コマンドラインツールに PATH を追加」などの項目があれば有効にすると楽です
-8. インストール後、新しいコマンドプロンプト or PowerShell で確認
+7. インストーラで「コマンドラインツールに PATH を追加」などの項目があれば有効にします
+8. インストール後、新しいコマンドプロンプト or PowerShell で確認します
 
 ```sh
 where platex
@@ -48,6 +48,7 @@ where dvipdfmx
 - **SyncTeX 双方向**（PDF → ソース / ソース → PDF）
 - **ワークスペース限定の設定**でプロジェクトがそのまま移動可能
 - **句読点の自動置換（任意）**：「、。」→「，．」
+- **AI 添削の事前チェック**：各 AI エージェントのプロンプトに熊木研論文ルールを組み込み済みで、熊木先生に指摘されやすい箇所を事前に洗い出せます
 
 ## 便利機能の使い方
 ### 自動ビルド（保存するだけ）
@@ -59,7 +60,10 @@ where dvipdfmx
 
 ### PDF プレビュー
 1. ビルド後、PDF が VSCode のタブで開きます
-2. 開かない場合はコマンドパレットで `LaTeX Workshop: View LaTeX PDF` を実行します
+2. 開かない場合は `Cmd(Ctrl)+Shift+P` でコマンドパレットを開きます
+3. 検索窓に `pdf` と入力します
+4. `LaTeX Workshop: View LaTeX PDF` を選択します
+5. VSCode のタブで PDF が開きます
 
 ### SyncTeX（PDF → ソース）
 1. PDF タブ上のテキストをダブルクリックします
