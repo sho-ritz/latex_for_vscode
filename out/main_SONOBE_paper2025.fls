@@ -1,10 +1,10 @@
-PWD /Users/show/dev/latex/latex_for_mac
+PWD /Users/show/dev/latex/latex_for_vscode
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/euptex/platex.fmt
-INPUT /Users/show/dev/latex/latex_for_mac/main_SONOBE_paper2025.tex
+INPUT /Users/show/dev/latex/latex_for_vscode/main_SONOBE_paper2025.tex
 OUTPUT out/main_SONOBE_paper2025.log
 INPUT ./tex_files/jreport2.cls
 INPUT ./tex_files/jreport2.cls
