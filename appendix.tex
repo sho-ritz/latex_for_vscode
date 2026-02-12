@@ -8,7 +8,7 @@
 本付録では，第\ref{lbl_chptr3}章で述べたLEDマトリクス表示システムの制御に用いた
 C言語プログラムのソースコードを示す．
 WiringPiによるGPIO制御，stb\_image系ライブラリによる画像読み込み・リサイズ，
-および累積値による256階調表示の実装を含む．
+及び累積値による256階調表示の実装を含む．
 
 \small
 \begin{verbatim}
@@ -49,7 +49,7 @@ static inline unsigned int calc_slot_time_us(void) {
 
 typedef struct { uint8_t r, g, b; } RGB;
 
-// 画像ファイル読み込み（PNG/JPEG/BMP等、stbが自動判別）
+// 画像ファイル読み込み（PNG/JPEG/BMP等，stbが自動判別）
 unsigned char* load_image(const char* filename, int* out_w, int* out_h) {
     int w, h, ch;
     unsigned char *img = stbi_load(filename, &w, &h, &ch, 3);
@@ -103,7 +103,7 @@ RGB* resize_image(unsigned char* src_rgb, int src_w, int src_h) {
 }
 
 // 点灯判定（累積ディザ / 時間方向誤差拡散）
-// 256スロット中に v 回だけONになるよう、スロットkでONかを返す。
+// 256スロット中に v 回だけONになるよう，スロットkでONかを返す．
 // 判定は「床関数差分」： floor(v*(k+1)/256) != floor(v*k/256)
 static inline bool accum_dither_on_u8(uint8_t v, uint8_t k) {
     uint16_t a = (uint16_t)v * (uint16_t)(k + 1);
