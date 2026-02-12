@@ -100,7 +100,7 @@
 
   // ========== 保存時の句読点変換（Better Replace On Save） ==========
   "editor.codeActionsOnSave": {
-    "source.applyReplacements": true
+    "source.applyReplacements": "explicit"
   },
   "betterReplaceOnSave.replacements": [
     {
