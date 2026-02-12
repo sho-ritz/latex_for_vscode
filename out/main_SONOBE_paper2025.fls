@@ -131,6 +131,10 @@ INPUT ./chptr2.tex
 INPUT ./chptr2.tex
 INPUT ./chptr2.tex
 INPUT chptr2.tex
+INPUT ./assets/rolling_shutter_example.png
+INPUT ./assets/rolling_shutter_example.png
+INPUT ./assets/rolling_shutter_example.png
+INPUT extractbb -B cropbox -O assets/rolling_shutter_example.png
 INPUT ./chptr3.tex
 INPUT ./chptr3.tex
 INPUT ./chptr3.tex

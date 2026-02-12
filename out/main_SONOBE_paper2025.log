@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.10.12)  4 FEB 2026 00:05
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.euc) (TeX Live 2025) (preloaded format=platex 2025.10.12)  12 FEB 2026 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -219,11 +219,13 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 
 ]
 第 2 章
+File: assets/rolling_shutter_example.png Graphic file (type bmp)
+<assets/rolling_shutter_example.png>
 
 
-[5]) (./chptr3.tex
+[5]
 
-[6]
+[6]) (./chptr3.tex
 
 [7]
 
@@ -275,11 +277,6 @@ Overfull \hbox (25.37326pt too wide) in paragraph at lines 102--149
 File: assets/256gradation.png Graphic file (type bmp)
 <assets/256gradation.png>
 
-Overfull \hbox (41.03883pt too wide) in paragraph at lines 171--172
-[]\JY1/mc/m/n/12 例えば ， 図 \OT1/cmr/m/n/12 3.4 \JY1/mc/m/n/12 の例では ， シアンを表現しているが ， シアンの場合は \OT1/cmr/m/n/12 (R,G,B)=(92,225,230)
- []
-
-
 
 [15]
 File: assets/pwm.png Graphic file (type bmp)
@@ -287,27 +284,29 @@ File: assets/pwm.png Graphic file (type bmp)
 
 
 [16]
+
+[17]
 File: assets/gradient_slot.png Graphic file (type bmp)
 <assets/gradient_slot.png>
 
 
-[17]
+[18]
 File: assets/my_logic.png Graphic file (type bmp)
 <assets/my_logic.png>
 
 
-[18]
-
 [19]
 
 [20]
+
+[21]
 File: assets/sky.jpg Graphic file (type bmp)
 <assets/sky.jpg>
 File: assets/uneven_1.jpg Graphic file (type bmp)
 <assets/uneven_1.jpg>
 
 
-[21]
+[22]
 File: assets/uneven_2.jpg Graphic file (type bmp)
 <assets/uneven_2.jpg>
 File: assets/even_1.jpg Graphic file (type bmp)
@@ -316,43 +315,40 @@ File: assets/even_2.jpg Graphic file (type bmp)
 <assets/even_2.jpg>
 
 
-[22]
-
 [23]
+
+[24]
 File: assets/origin_cat.jpg Graphic file (type bmp)
 <assets/origin_cat.jpg>
 File: assets/output_0.45.png Graphic file (type bmp)
 <assets/output_0.45.png>
 
 
-[24]
+[25]
 File: assets/gamma_explain.jpg Graphic file (type bmp)
 <assets/gamma_explain.jpg>
 
 
-[25]
+[26]
 File: assets/matrix_gamma.png Graphic file (type bmp)
 <assets/matrix_gamma.png>
 
 
-[26]
+[27]
 File: assets/output_2.2.png Graphic file (type bmp)
 <assets/output_2.2.png>
-
-
-[27]
 File: assets/non_gamma.jpg Graphic file (type bmp)
 <assets/non_gamma.jpg>
+
+
+[28]
 File: assets/display_2.2.jpg Graphic file (type bmp)
 <assets/display_2.2.jpg>
 
 
-[28]
+[29]
 File: assets/flow_exec_file.png Graphic file (type bmp)
 <assets/flow_exec_file.png>
-
-
-[29]
 File: assets/web_interface.png Graphic file (type bmp)
 <assets/web_interface.png>
 
@@ -360,11 +356,6 @@ File: assets/web_interface.png Graphic file (type bmp)
 [30]
 File: assets/cloudflare_tunnel.png Graphic file (type bmp)
 <assets/cloudflare_tunnel.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
-[][]\OT1/cmr/m/n/10 https://blog.cloudflare.com/getting-cloudflare-tunnels-to-connect-to-the-cloudflare-
- []
-
 
 
 [31]
@@ -377,68 +368,72 @@ File: assets/cloudflare_system.png Graphic file (type bmp)
 <assets/cloudflare_system.png>
 File: assets/web_site_origin.png Graphic file (type bmp)
 <assets/web_site_origin.png>
-File: assets/web_site.png Graphic file (type bmp)
-<assets/web_site.png>
 
 
 [33]
+File: assets/web_site.png Graphic file (type bmp)
+<assets/web_site.png>
 File: assets/display_2.2.jpg Graphic file (type bmp)
 <assets/display_2.2.jpg>
 ) (./chptr4.tex
 
 [34]
+
+[35]
+
+[36
+
+]
 第 4 章
 
 
-[35
-
-]
+[37]
 File: assets/flicker_pattern.png Graphic file (type bmp)
 <assets/flicker_pattern.png>
 
 
-[36]
+[38]
 File: assets/1001_bit.png Graphic file (type bmp)
 <assets/1001_bit.png>
 
 
-[37]
+[39]
 File: assets/flicker_noise.jpg Graphic file (type bmp)
 <assets/flicker_noise.jpg>
 
 
-[38]
+[40]
 File: assets/split_matrix.png Graphic file (type bmp)
 <assets/split_matrix.png>
 
 
-[39]
+[41]
 File: assets/splite_matrix_4.jpg Graphic file (type bmp)
 <assets/splite_matrix_4.jpg>
 
 
-[40]
+[42]
 File: assets/splited_8.jpg Graphic file (type bmp)
 <assets/splited_8.jpg>
 File: assets/data_structure.png Graphic file (type bmp)
 <assets/data_structure.png>
 
 
-[41]
-
-[42]) (./chptr5.tex
-
 [43]
 
-[44
+[44]) (./chptr5.tex
+
+[45]
+
+[46
 
 ]
 第 5 章
 
 
-[45]) (out/main_SONOBE_paper2025.bbl
+[47]) (out/main_SONOBE_paper2025.bbl
 
-[46]
+[48]
 Underfull \hbox (badness 1874) in paragraph at lines 12--14
 []\OT1/cmr/m/n/12 S. Ra-jagopal, R. D. Roberts, and S.-K. Lim, ``IEEE 802.15.7 vis-i-
  []
@@ -458,65 +453,45 @@ Underfull \hbox (badness 2653) in paragraph at lines 16--18
 \OT1/cmr/m/n/12 Com-mu-ni-ca-tions Mag-a-zine, vol. 51, no. 12, pp. 26--32, Dec. 2013.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-[]\OT1/cmr/m/n/12 I. 802.15, ``Short-range op-ti-cal wire-less com-mu-ni-ca-tions
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-\OT1/cmr/m/n/12 tu-to-rial.'' IEEE 802.15 Work-ing Group, Men-tor \JY1/mc/m/n/12 資料\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-\OT1/cmr/m/n/12 https://mentor.ieee.org/802.15/dcn/15/15-15-0112-02-007a-short-range-
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 20--22
-\OT1/cmr/m/n/12 optical-wireless-communications-tutorial.pdf \JY1/mc/m/n/12 （ 最終閲覧日\OT1/cmr/m/n/12 : 2026-01-24\JY1/mc/m/n/12 ） \OT1/cmr/m/n/12 .
- []
-
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 32.
+(Font)              No change on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 []\OT1/cmr/m/n/12 D. K. Nguyen \OT1/cmr/m/it/12 et al.\OT1/cmr/m/n/12 , ``Spaced color shift key-ing mod-u-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 \OT1/cmr/m/n/12 tion for camera-based vis-i-ble light com-mu-ni-ca-tion sys-tem us-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 \OT1/cmr/m/n/12 ing rolling shut-ter ef-fect,'' Op-tics Com-mu-ni-ca-tions, 2019.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 \OT1/cmr/m/n/12 https://www.sciencedirect.com/science/article/abs/pii/S0030401819304432
  []
 
 
-
-[47
-
-]
-Underfull \hbox (badness 1072) in paragraph at lines 36--38
+Underfull \hbox (badness 1072) in paragraph at lines 32--34
 []\OT1/cmr/m/n/12 R. D. Roberts, S. Ra-jagopal, and S.-K. Lim, ``IEEE 802.15.7 phys-i-
  []
 
 
+
+[49
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
-[]\OT1/cmr/m/n/12 ``Led \JY1/mc/m/n/12 マトリ ッ クス \OT1/cmr/m/n/12 hub75 1/16s 1/32s smd2121 smd2020
+[]\OT1/cmr/m/n/12 ``LED \JY1/mc/m/n/12 マトリ ッ クス \OT1/cmr/m/n/12 HUB75 1/16S 1/32S SMD2121 SMD2020
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
-\JY1/mc/m/n/12 屋内用 \OT1/cmr/m/n/12 p4 256x128mm 64x32 32x64 led \JY1/mc/m/n/12 モジ ュ ール\OT1/cmr/m/n/12 .''
+\JY1/mc/m/n/12 屋内用 \OT1/cmr/m/n/12 P4 256x128mm 64x32 32x64 LED \JY1/mc/m/n/12 モジ ュ ール\OT1/cmr/m/n/12 .''
  []
 
 
@@ -530,27 +505,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
  []
 
 
-Overfull \hbox (2.59332pt too wide) in paragraph at lines 56--58
+Overfull \hbox (2.59332pt too wide) in paragraph at lines 60--62
 []\OT1/cmr/m/n/12 Cloudflare, ``Cloud-flare tun-nel.''  https://developers.cloudflare.com/cloudflare-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 []\OT1/cmr/m/n/12 LINEEYE, ``\JY1/mc/m/n/12 通信の基本方式\OT1/cmr/m/n/12 .'' \JY1/mc/m/n/12 通信の用語集\OT1/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 \OT1/cmr/m/n/12 https://www.lineeye.co.jp/html/term[]doki.html \JY1/mc/m/n/12 （ 最終閲覧日\OT1/cmr/m/n/12 : 2026-01-
  []
 
 ) (./appendix.tex
 
-[48]
+[50]
 付 録 A  
 
 
-[49
+[51
 
 ]
 Overfull \hbox (1.6542pt too wide) in paragraph at lines 241--241
@@ -569,9 +544,9 @@ Overfull \hbox (7.4029pt too wide) in paragraph at lines 241--241
 
 
 
-[50]
+[52]
 
-[51]
+[53]
 Overfull \hbox (7.4029pt too wide) in paragraph at lines 241--241
 []                \OT1/cmtt/m/n/10.95 if (accum_dither_on_u8(t.r, k)) digitalWrite(pinR1, HIGH);[] 
  []
@@ -588,7 +563,7 @@ Overfull \hbox (7.4029pt too wide) in paragraph at lines 241--241
 
 
 
-[52]
+[54]
 Overfull \hbox (7.4029pt too wide) in paragraph at lines 241--241
 []                \OT1/cmtt/m/n/10.95 if (accum_dither_on_u8(b.r, k)) digitalWrite(pinR2, HIGH);[] 
  []
@@ -605,24 +580,24 @@ Overfull \hbox (7.4029pt too wide) in paragraph at lines 241--241
 
 
 
-[53])
+[55])
 
-[54]
+[56]
 
-[55
+[57
 
 ]
 
-[56
+[58
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 231.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 233.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 231.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 233.
 
 
-[57] (out/main_SONOBE_paper2025.aux)
+[59] (out/main_SONOBE_paper2025.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2025-06-01> patch level 1
@@ -630,12 +605,12 @@ L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2259 strings out of 468392
- 36938 string characters out of 5442309
+ 2267 strings out of 468392
+ 37200 string characters out of 5442309
  443538 words of memory out of 5000000
- 30887 multiletter control sequences out of 15000+600000
+ 30894 multiletter control sequences out of 15000+600000
  649180 words of font info for 126 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  57i,12n,65p,882b,535s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main_SONOBE_paper2025.dvi (66 pages, 153976 bytes).
+Output written on out/main_SONOBE_paper2025.dvi (68 pages, 156072 bytes).

@@ -1,40 +1,41 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ローリングシャッター方式のカメラで撮影したLEDの点滅の例}}{6}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces HUB75 64×32 LEDマトリクスパネルの外観\footnotemark }}{11}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces HUB75 64×32 LEDマトリクスパネルの点灯例\footnotemark }}{12}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces HUB75規格 64×32 LEDマトリクスパネルの外観\footnotemark }}{11}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces HUB75規格 64×32 LEDマトリクスパネルの点灯例\footnotemark }}{12}{}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Raspberry Pi 4 Model Bの外観\footnotemark }}{13}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 本研究で採用した方式による256階調表現}}{15}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces PWM制御による点灯制御}}{16}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces スロットの均等に配置しないパターン}}{18}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces $R=200$のときの累積値の遷移}}{19}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces LEDマトリクスパネルに表示した元画像}}{21}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 整数除算でスロット配置を決める方式の場合１}}{22}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 整数除算でスロット配置を決める方式２}}{22}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 累積値でスロットを配置した場合１}}{22}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 累積値でスロットを配置した場合２}}{23}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces 元画像}}{24}{}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces リサイズ後画像}}{25}{}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces ガンマ補正の原理\footnotemark }}{26}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 本研究で採用した方式による256階調表現}}{16}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces PWM制御による点灯制御}}{17}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces スロットが均等に配置されていないパターン}}{18}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces $R=200$のときの累積値の遷移}}{20}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces LEDマトリクスパネルに表示した元画像}}{22}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 整数除算でスロット配置を決める方式の場合１}}{23}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 整数除算でスロット配置を決める方式２}}{23}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 累積値でスロットを配置した場合１}}{23}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 累積値でスロットを配置した場合２}}{24}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 元画像}}{25}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces リサイズ後の画像}}{26}{}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces ガンマ補正の原理\footnotemark }}{27}{}%
 \contentsline {figure}{\numberline {3.16}{\ignorespaces LEDマトリクスパネルでのガンマ特性}}{27}{}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces ガンマ2.2補正画像}}{28}{}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces ガンマ補正なしの画像（パネル表示）}}{28}{}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces ガンマ補正なしの画像（パネル表示）}}{29}{}%
 \contentsline {figure}{\numberline {3.19}{\ignorespaces ガンマ2.2補正画像（パネル表示）}}{29}{}%
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Djangoから実行ファイルへの画像の流れと実行ファイル内での処理（リサイズ・点灯制御）}}{30}{}%
 \contentsline {figure}{\numberline {3.21}{\ignorespaces Django WebアプリケーションのWebインタフェース}}{31}{}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Cloudflare Tunnelの概要図\footnotemark }}{31}{}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Cloudflare Tunnelの概要図}}{32}{}%
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Webサイトの画面}}{32}{}%
 \contentsline {figure}{\numberline {3.24}{\ignorespaces システム全体の構成}}{33}{}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces アップロード前のWebサイトの画面}}{33}{}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces アップロード前のWebサイトの画面}}{34}{}%
 \contentsline {figure}{\numberline {3.26}{\ignorespaces アップロード後のWebサイトの画面}}{34}{}%
 \contentsline {figure}{\numberline {3.27}{\ignorespaces LEDマトリクスパネルに表示された画像}}{34}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 提案方式におけるスロットパターン}}{37}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 1001というビット列を表現する場合のスロットパターン}}{38}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 縞模様が現れた画像}}{39}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 4分割LEDマトリクスの走査制御}}{40}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LEDマトリクスパネルを4つの領域に分割した画像}}{40}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces LEDマトリクスパネルを8つの領域に分割した画像}}{41}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 送信データの全体設計}}{42}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 提案方式におけるスロットパターン}}{39}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 1001というビット列を表現する場合のスロットパターン}}{40}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 縞模様が現れた画像}}{41}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 4分割LEDマトリクスの走査制御}}{42}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LEDマトリクスパネルを4つの領域に分割した画像}}{42}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces LEDマトリクスパネルを8つの領域に分割した画像}}{43}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 送信データの全体設計}}{43}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
