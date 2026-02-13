@@ -20,8 +20,8 @@ A.~Jovicic, J.~Li, and T.~Richardson, ``Visible light communication: Opportuniti
 A.~Belle, M.~Falcitelli, M.~Petracca, and P.~Pagano, ``Development of {IEEE}802.15.7 based {ITS} services using low cost embedded systems,'' 2013 13th International Conference on ITS Telecommunications ({ITST}), pp.~419--425, Nov. 2013.
 \newblock https://ieeexplore.ieee.org/document/6685583（最終閲覧日: 2026-02-12）.
 
-\bibitem{nguyen_rolling_mimo_2020}
-T.~Nguyen, A.~Islam, and T.~Yamazato, ``Optical camera communications for {IoT}---rolling-shutter based {MIMO} scheme with grouped {LED} array transmitter,'' Sensors, vol.~20, no.~12, 2020.
+\bibitem{teli_rolling_mimo_2020}
+S.~R. Teli, V.~Matus, S.~Zvanovec, R.~Perez-Jimenez, S.~Vitek, and Z.~Ghassemlooy, ``Optical camera communications for {IoT}---rolling-shutter based {MIMO} scheme with grouped {LED} array transmitter,'' Sensors, vol.~20, no.~12, 2020.
 \newblock https://www.mdpi.com/1424-8220/20/12/3361（最終閲覧日: 2026-01-24）.
 
 \bibitem{scsk_rolling_shutter}

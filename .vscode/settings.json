@@ -97,6 +97,11 @@
   "editor.folding": true,
   "editor.minimap.enabled": true,
   "editor.suggestSelection": "first",
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.wordWrap": "on",
+  "diffEditor.renderIndicators": true,
+  "diffEditor.experimental.useTrueInlineView": true,
 
   // ========== 保存時の句読点変換（Better Replace On Save） ==========
   "editor.codeActionsOnSave": {
